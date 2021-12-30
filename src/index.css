@@ -1,0 +1,31 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-custom-darkcream;
+  }
+  .menu-left-secondary {
+    @apply -left-full;
+  }
+  .menu-left-secondary > ul {
+    @apply transform -translate-x-full bg-custom-lightblue;
+  }
+  .menu-left li.opened-menu-item .menu-left-secondary {
+    @apply left-full;
+  }
+  .menu-left li.opened-menu-item .menu-left-secondary ul {
+    @apply transform translate-x-0 transition-all duration-500;
+  }
+  .menu-left li.opened-menu-item .menu-left-secondary:hover {
+    @apply overflow-visible;
+  }
+  .menu-third-level {
+    @apply hidden;
+  }
+  .menu-left-secondary > ul li:hover .menu-third-level {
+    @apply block;
+  }
+}
