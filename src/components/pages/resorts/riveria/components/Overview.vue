@@ -4,15 +4,7 @@
       <div class="mt-5">
         <div class="mx-4">
           <div class="py-5">
-            <VueSlickCarousel :autoplay="true" :arrows="true" :dots="true">
-              <div v-for="(img, i) in images" :key="i">
-                <img
-                  class="w-full h-64 md:h-96 pointer-events-none"
-                  :src="img"
-                  alt="slider-imgs"
-                />
-              </div>
-            </VueSlickCarousel>
+            <ResortsSlider :images="images" />
             <div class="text-center mt-14">
               <h2
                 class="text-custom-blue4 text-4xl font-semibold uppercase mt-2"
@@ -52,14 +44,12 @@
 </template>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 import Cards from "../../components/Cards";
+import ResortsSlider from "../../components/ResortsSlider";
 export default {
   components: {
-    VueSlickCarousel,
     Cards,
+    ResortsSlider,
   },
   data() {
     return {

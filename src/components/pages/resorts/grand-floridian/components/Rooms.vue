@@ -32,15 +32,7 @@
               </h1>
             </div>
             <div class="py-10 px-5 md:px-0">
-              <VueSlickCarousel :autoplay="true" :arrows="true" :dots="true">
-                <div v-for="(img, i) in tab.imgs" :key="i">
-                  <img
-                    class="w-full h-64 md:h-96 pointer-events-none"
-                    :src="img"
-                    alt="slider-imgs"
-                  />
-                </div>
-              </VueSlickCarousel>
+              <ResortsSlider :images="tab.imgs" />
             </div>
             <span class="inline-block w-8/12 text-2xl text-custom-blue4 mt-5">
               {{ tab.description }}
@@ -84,13 +76,9 @@
   </div>
 </template>
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import ResortsSlider from "../../components/ResortsSlider";
 export default {
-  components: {
-    VueSlickCarousel,
-  },
+  components: { ResortsSlider },
   data() {
     return {
       activePage: "Deluxe Studio - Standard View",
