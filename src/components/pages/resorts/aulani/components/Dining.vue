@@ -7,10 +7,10 @@
             class="py-2 px-4 border border-custom-blue4 cursor-pointer"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="(tab, index) in tabs"
-            @click="changeView($event, tab.name)"
+            @click="activePage = tab.name"
             :key="index"
           >
-            <a :href="'#' + tab.name"> {{ tab.name }}</a>
+            {{ tab.name }}
           </li>
         </ul>
       </div>
@@ -86,12 +86,6 @@ export default {
         },
       ],
     };
-  },
-  methods: {
-    changeView(e, tab) {
-      e.preventDefault();
-      this.activePage = tab;
-    },
   },
 };
 </script>
