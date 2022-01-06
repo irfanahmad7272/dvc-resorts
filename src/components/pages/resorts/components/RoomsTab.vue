@@ -10,7 +10,7 @@
         <div class="py-10 px-5 md:px-0">
           <ResortsSlider :images="tab.imgs" />
         </div>
-        <span class="inline-block w-8/12 text-2xl text-custom-blue4 mt-5">
+        <span class="inline-block text-2xl text-custom-blue4 mt-5">
           {{ tab.description }}
         </span>
         <span class="text-custom-blue2 font-semibold text-2xl block mt-5">

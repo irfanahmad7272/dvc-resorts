@@ -41,7 +41,7 @@ export default {
         { name: "SARATOGA SPRINGS", url: "/saratoga-springs" },
         { name: "RIVERA", url: "/rivera" },
         { name: "VERO BEACH", url: "/vero-beach" },
-        { name: "RCI RESORTS", url: "/rci-resorts" },
+        { name: "Interval RESORTS", url: "/interval-resorts" },
       ],
     };
   },

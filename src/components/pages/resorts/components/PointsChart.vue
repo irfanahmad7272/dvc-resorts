@@ -27,7 +27,7 @@
     <div class="max-w-3xl mx-auto overflow-hidden mt-5">
       <img
         class="w-full"
-        :src="`/assets/resorts${folderName}/charts/${activeChart}.png`"
+        :src="`/assets/resorts${folderName}/charts/${activeChart}.jpg`"
         alt=""
       />
     </div>

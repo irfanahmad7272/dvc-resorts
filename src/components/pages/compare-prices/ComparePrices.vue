@@ -36,27 +36,37 @@
                   </tr>
                 </thead>
                 <tbody class="md:text-2xl">
-                  <tr class="odd:bg-custom-darkcream">
+                  <tr
+                    class="odd:bg-custom-darkcream hover:bg-custom-lightergreen"
+                  >
                     <td class="py-2 px-3">Purchase Price per Point:</td>
                     <td class="py-2 text-center">$171.00</td>
                     <td class="py-2 text-right px-3">$131.00</td>
                   </tr>
-                  <tr class="odd:bg-custom-darkcream">
+                  <tr
+                    class="odd:bg-custom-darkcream hover:bg-custom-lightergreen"
+                  >
                     <td class="py-2 px-3">Contract price:</td>
                     <td class="py-2 text-center">$171.00</td>
                     <td class="py-2 text-right px-3">$131.00</td>
                   </tr>
-                  <tr class="odd:bg-custom-darkcream">
+                  <tr
+                    class="odd:bg-custom-darkcream hover:bg-custom-lightergreen"
+                  >
                     <td class="py-2 px-3">Saving per point:</td>
                     <td class="py-2 text-center"></td>
                     <td class="py-2 text-right px-3">$131.00</td>
                   </tr>
-                  <tr class="odd:bg-custom-darkcream">
+                  <tr
+                    class="odd:bg-custom-darkcream hover:bg-custom-lightergreen"
+                  >
                     <td class="py-2 px-3">Saving per contract:</td>
                     <td class="py-2 text-center"></td>
                     <td class="py-2 text-right px-3">$131.00</td>
                   </tr>
-                  <tr class="odd:bg-custom-darkcream">
+                  <tr
+                    class="odd:bg-custom-darkcream hover:bg-custom-lightergreen"
+                  >
                     <td class="py-2 px-3">Saving percentage:</td>
                     <td class="py-2 text-center"></td>
                     <td class="py-2 text-right px-3">$131.00</td>

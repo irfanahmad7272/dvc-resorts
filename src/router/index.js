@@ -6,6 +6,7 @@ import AnnualDuesHistoricalRetailPrice from '../components/pages/annual-dues/Ann
 import DisneyRetailPriceCurrent from '../components/pages/disney-retail-price/DisneyRetailPriceCurrent'
 import DisneyHistoricalRetailPrice from '../components/pages/disney-retail-price/DisneyHistoricalRetailPrice'
 import ComparePrices from '../components/pages/compare-prices/ComparePrices'
+import CompareBrokers from '../components/pages/compare-brokers/CompareBrokers'
 // resorts start
 import AnimalKingdom from '../components/pages/resorts/animal-kingdom/AnimalKingdom'
 import Aulani from '../components/pages/resorts/aulani/Aulani'
@@ -22,7 +23,8 @@ import Polynesian from '../components/pages/resorts/polynesian/Polynesian'
 import SaratogaSprings from '../components/pages/resorts/saratoga-springs/SaratogaSprings'
 import Rivera from '../components/pages/resorts/riveria/Riveria'
 import VeroBeach from '../components/pages/resorts/vero-beach/VeroBeach'
-import RciResorts from '../components/pages/resorts/rci/RciResorts'
+import IntervalResorts from '../components/pages/resorts/interval-resorts/IntervalResorts'
+import Firpta from '../components/pages/firpta/Firpta'
 // resorts end
 Vue.use(VueRouter)
 const routes = [
@@ -133,12 +135,21 @@ const routes = [
     component: VeroBeach,
   },
   {
-    path: '/rci-resorts',
-    name: 'Rci Resorts',
-    component: RciResorts,
+    path: '/interval-resorts',
+    name: 'Interval Resorts',
+    component: IntervalResorts,
   },
   // resorts end
-  
+  {
+    path: '/compare-brokers',
+    name: 'Compare Brokers',
+    component: CompareBrokers,
+  },
+  {
+    path: '/firpta',
+    name: 'Firpta',
+    component: Firpta,
+  },
 ]
 
 const router = new VueRouter({

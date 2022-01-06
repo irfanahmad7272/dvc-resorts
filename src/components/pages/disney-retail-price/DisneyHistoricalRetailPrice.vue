@@ -90,21 +90,81 @@
                   </tr>
                   <tr class="text-center border-2">
                     <td class="bg-white">Year</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">OK</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">VB</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">HH</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">BW</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">BR</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">BC</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">SS</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">AK</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">BL</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">GC</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">AU</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">GF</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">PY</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">CC</td>
-                    <td class="even:bg-blue-200 odd:bg-blue-300">RR</td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      OK
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      VB
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      HH
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      BW
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      BR
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      BC
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      SS
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      AK
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      BL
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      GC
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      AU
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      GF
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      PY
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      CC
+                    </td>
+                    <td
+                      class="even:bg-blue-200 odd:bg-blue-300 hover:bg-custom-lightergreen"
+                    >
+                      RR
+                    </td>
                   </tr>
                 </thead>
                 <tbody>

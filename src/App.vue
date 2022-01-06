@@ -5,7 +5,7 @@
 export default {};
 </script>
 <style>
-tbody tr:hover {
+/* tbody tr:hover {
   background-color: #d7ead7 !important;
-}
+} */
 </style>
