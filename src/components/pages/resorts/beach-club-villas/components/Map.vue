@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center mt-5">
-    <img src="/assets/resorts/beach-club-villas/DisneyBeachClubVillasMap.jpg" />
+    <img src="/assets/resorts/beach-club-villas/map.jpg" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center mt-5">
-    <img src="/assets/resorts/grand-floridian/GrandFloridianMap.png" />
+    <img src="/assets/resorts/bay-lake-tower/map.jpg" />
   </div>
 </template>
 

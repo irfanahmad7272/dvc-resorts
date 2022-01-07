@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center mt-5">
-    <img src="/assets/resorts/polynesian/map.jpg" />
+    <img class="w-full" src="/assets/resorts/polynesian/map.jpg" />
   </div>
 </template>
 

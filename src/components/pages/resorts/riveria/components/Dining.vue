@@ -31,8 +31,10 @@ export default {
         {
           name: "Topolino's Terrace – Flavors of the Riviera",
           imgs: [
-            "/assets/resorts/polynesian/dining/ohana/1.png",
-            "/assets/resorts/polynesian/dining/ohana/2.png",
+            "/assets/resorts/riveria/topolina.jpg",
+            "/assets/resorts/riveria/topolina2.jpg",
+            "/assets/resorts/riveria/topolina3.jpg",
+            "/assets/resorts/riveria/topolina4.jpg",
           ],
           description:
             "Modeled after cliffside restaurants dotting the Riviera, Topolino's Terrace provides a stunning backdrop for European and Meditteranean-inspired dishes at this rooftop eatery. Time your dinner so that you can view nighttime fireworks from nearby Epcot or Disney's Hollywood Studios. At breakfast, Disney characters will greet you as you enjoy a prix-fixe menu",
@@ -40,9 +42,9 @@ export default {
         {
           name: "Le Petit Café",
           imgs: [
-            "/assets/resorts/polynesian/dining/aloha/1.png",
-            "/assets/resorts/polynesian/dining/aloha/2.png",
-            "/assets/resorts/polynesian/dining/aloha/3.png",
+            "/assets/resorts/riveria/le-patit-cafe.jpg",
+            "/assets/resorts/riveria/le-patit-cafe2.jpg",
+            "/assets/resorts/riveria/le-patit-cafe3.jpg",
           ],
           description:
             "This small cafe transforms from a coffee and pastry shop in the morning into a wine and appetizer bar at night—all inspired by the sophistication and elegance of Paris. From lattes, freshly brewed coffee, and pastries to sparkling wine and appetizers, take your bites and dine alfresco! ",
@@ -50,10 +52,10 @@ export default {
         {
           name: "Bar Riva",
           imgs: [
-            "/assets/resorts/polynesian/dining/kona/1.png",
-            "/assets/resorts/polynesian/dining/kona/2.png",
-            "/assets/resorts/polynesian/dining/kona/3.png",
-            "/assets/resorts/polynesian/dining/kona/4.png",
+            "/assets/resorts/riveria/bar-riva.jpg",
+            "/assets/resorts/riveria/bar-riva2.jpg",
+            "/assets/resorts/riveria/bar-riva3.jpg",
+            "/assets/resorts/riveria/bar-riva4.jpg",
           ],
           description:
             "Spend a relaxing afternoon sampling sandwiches, salads, cocktails, and more at this poolside lounge. Take a cue from Riviera natives and enjoy long-lunches with Mediterranean and European-infused dishes. Sip on a frozen drink, spritzer, or rosé and munch on delectable hand-crafted sandwiches. ",
@@ -61,10 +63,9 @@ export default {
         {
           name: "Primo Piatto",
           imgs: [
-            "/assets/resorts/polynesian/dining/tambu/1.png",
-            "/assets/resorts/polynesian/dining/tambu/2.png",
-            "/assets/resorts/polynesian/dining/tambu/3.png",
-            "/assets/resorts/polynesian/dining/tambu/4.png",
+            "/assets/resorts/riveria/primo-piatto.jpg",
+            "/assets/resorts/riveria/primo-piatto2.jpg",
+            "/assets/resorts/riveria/primo-piatto3.jpg",
           ],
           description:
             "Enjoy gourmet breakfast, lunch, or dinner in a quick-service setting that offers specialties like blueberry-lemon pancakes, Margherita pizza, plus hot and cold sandwiches. ",

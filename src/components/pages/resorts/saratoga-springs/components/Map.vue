@@ -24,9 +24,9 @@
         Map two
       </button>
     </div>
-    <div class="max-w-3xl mx-auto overflow-hidden mt-5">
+    <div class="mx-auto overflow-hidden mt-5">
       <img
-        :src="`/assets/resorts/animal-kingdom/${activeChart}.jpg`"
+        :src="`/assets/resorts/saratoga-springs/${activeChart}.jpg`"
         class="w-full"
         alt=""
       />
