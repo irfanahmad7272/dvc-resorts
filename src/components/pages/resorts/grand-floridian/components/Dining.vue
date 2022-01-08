@@ -117,11 +117,11 @@ export default {
         {
           name: "Cítricos",
           imgs: [
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricos1.jpg",
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricos2.jpg",
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricos3.jpg",
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricos4.jpg",
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricos5.jpg",
+            "/assets/resorts/grand-floridian/citricos.jpg",
+            "/assets/resorts/grand-floridian/citricos2.jpg",
+            "/assets/resorts/grand-floridian/citricos3.jpg",
+            "/assets/resorts/grand-floridian/citricos4.jpg",
+            "/assets/resorts/grand-floridian/citricos5.jpg",
           ],
           description:
             "Wholesome ingredients blend for Mediterranean-infused flavors with a Floridian twist at this Signature Dining location. The decor was recently updated to reflect the whimsy and wonder of Mary Poppins Returns, featuring motifs from the film’s animated sequences. The menu represents the freshest ingredient selections available. Their award-winning international wine list is filled with Old World wines and is a sight to see! ",
@@ -129,7 +129,9 @@ export default {
         {
           name: "Cítricos Lounge",
           imgs: [
-            // "/assets/resorts/grand-floridian/GrandFloridianRestaurentCítricosLounge1.jpg",
+            "/assets/resorts/grand-floridian/citricos-lounge.jpg",
+            "/assets/resorts/grand-floridian/citricos-lounge2.jpg",
+            "/assets/resorts/grand-floridian/citricos-lounge3.jpg",
           ],
           description:
             "Unwind within the Mediterranean ambiance at this cozy bar where you can enjoy international wines, cocktails, artisanal beers and seasonal tapas.",

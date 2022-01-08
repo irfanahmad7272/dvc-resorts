@@ -68,19 +68,32 @@ export default {
         },
         {
           name: "Off the Hook",
-          imgs: "/assets/resorts/aulani/dinning/off-the-hook/1.png",
+          imgs: [
+            "/assets/resorts/aulani/dinning/off-the-hook/1.jpg",
+            "/assets/resorts/aulani/dinning/off-the-hook/2.webp",
+          ],
           description:
             "This open-air, beachside lounge resembles a fisherman’s shack and serves various drinks and Hawaiian-inspired appetizers.",
         },
         {
           name: "The `Ōlelo Room",
-          imgs: "/assets/resorts/aulani/dinning/olelo/1.png",
+          imgs: [
+            "/assets/resorts/aulani/dinning/olelo/1.jpg",
+            "/assets/resorts/aulani/dinning/olelo/2.jpg",
+            "/assets/resorts/aulani/dinning/olelo/3.webp",
+            "/assets/resorts/aulani/dinning/olelo/4.jpg",
+          ],
           description:
             "Inspired and infused with the Hawaiian language, this bar and lounge offers beer, wine, spirits, and Hawaiian appetizers.",
         },
         {
           name: "Ka Wa'a: A Luau at Aulani",
-          imgs: "/assets/resorts/aulani/dinning/kawa/1.png",
+          imgs: [
+            "/assets/resorts/aulani/dinning/kawa/1.jpg",
+            "/assets/resorts/aulani/dinning/kawa/2.jpg",
+            "/assets/resorts/aulani/dinning/kawa/3.jpg",
+            "/assets/resorts/aulani/dinning/kawa/4.jpg",
+          ],
           description:
             "Discover a culinary and cultural experience that infuses the legends, traditions, natural wonders, and the people of Hawaii at this one-of-a-kind dining experience",
         },

@@ -24,8 +24,8 @@ import SaratogaSprings from '../components/pages/resorts/saratoga-springs/Sarato
 import Rivera from '../components/pages/resorts/riveria/Riveria'
 import VeroBeach from '../components/pages/resorts/vero-beach/VeroBeach'
 import IntervalResorts from '../components/pages/resorts/interval-resorts/IntervalResorts'
-import Firpta from '../components/pages/firpta/Firpta'
 // resorts end
+import Firpta from '../components/pages/firpta/Firpta'
 Vue.use(VueRouter)
 const routes = [
   {

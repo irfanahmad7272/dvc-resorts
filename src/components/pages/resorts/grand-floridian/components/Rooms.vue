@@ -13,35 +13,23 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4"
+            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
             @click="activePage = 'Floor Plans'"
             :class="[
               { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
             ]"
           >
-            <a> Floor Plans </a>
+            Floor Plans
           </li>
         </ul>
       </div>
-      <div class="w-full text-center col-span-12 md:col-span-9">
-        <RoomsTab :tabs="tabs" :activePage="activePage" />
-        <div v-if="activePage === 'Floor Plans'" class="w-full">
-          <div class="text-center w-full">
-            <h1 class="text-3xl font-semibold text-custom-blue4">
-              Floor Plans
-            </h1>
-          </div>
-
-          <div>
-            <span class="inline-block w-8/12 text-lg text-custom-blue4 mt-5">
-              {{ floors.description[activeFloor].name }}
-            </span>
-            <span class="inline-block w-8/12 text-lg text-custom-blue4 mt-5">
-              {{ floors.description[activeFloor].size }}
-            </span>
-          </div>
-        </div>
-      </div>
+      <RoomsTab
+        :tabs="tabs"
+        :activePage="activePage"
+        :floors="floors"
+        :floorImgs="floors.imgs"
+        :activeFloor="activeFloor"
+      />
     </div>
   </div>
 </template>

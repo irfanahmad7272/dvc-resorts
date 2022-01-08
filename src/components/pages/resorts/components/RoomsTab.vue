@@ -19,11 +19,7 @@
         <div class="m-5">
           <div class="mt-2 text-left list-disc text-custom-blue4 mx-auto">
             <ul class="list-disc grid grid-cols-2 md:grid-cols-3 gap-x-10">
-              <li
-                class="md:px-4"
-                v-for="(amenitie, index) in tab.amenities"
-                :key="index"
-              >
+              <li v-for="(amenitie, index) in tab.amenities" :key="index">
                 {{ amenitie }}
               </li>
             </ul>
@@ -34,6 +30,9 @@
     <div v-if="activePage === 'Floor Plans'" class="w-full">
       <div class="text-center w-full">
         <h1 class="text-3xl font-semibold text-custom-blue4">Floor Plans</h1>
+      </div>
+      <div class="py-10 px-5 md:px-0">
+        <ResortsSlider :images="floorImgs" />
       </div>
       <div>
         <span class="inline-block w-8/12 text-lg text-custom-blue4 mt-5">
@@ -52,6 +51,6 @@ export default {
   components: {
     ResortsSlider,
   },
-  props: ["tabs", "activePage", "floors", "activeFloor"],
+  props: ["tabs", "activePage", "floors", "activeFloor", "floorImgs"],
 };
 </script>

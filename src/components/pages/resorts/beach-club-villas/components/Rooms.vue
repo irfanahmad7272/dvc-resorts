@@ -13,13 +13,13 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4"
+            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
             @click="activePage = 'Floor Plans'"
             :class="[
               { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
             ]"
           >
-            <a> Floor Plans </a>
+            Floor Plans
           </li>
         </ul>
       </div>
@@ -27,6 +27,7 @@
         :tabs="tabs"
         :activePage="activePage"
         :floors="floors"
+        :floorImgs="floors.imgs"
         :activeFloor="activeFloor"
       />
     </div>
