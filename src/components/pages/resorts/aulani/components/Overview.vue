@@ -17,17 +17,18 @@
                 Experience the magic of Hawaii at Disney’s Aulani Resort and
                 Spa. Located on the white-sand beaches of Oahu, the Villas of
                 Aulani overlook the Pacific Ocean, a breathtaking lagoon, and a
-                tropical cove that defines the term "paradise on Earth."
+                tropical cove that defines the term "paradise on Earth." <br />
                 "Aulani" means "messenger of a chief," and it's here that you'll
-                explore everything the Hawaiian islands have to offer. Set back
-                from the crowds of Waikiki but close enough to enjoy its
-                attractions, Aulani is nestled between mountain ranges and
-                calming ocean waves. In addition to all the world-class
-                amenities you expect from a Disney Resort, there are
-                island-themed activities for all to enjoy. Matched only by the
-                spectacular beauty of the islands, the atmosphere and
-                experiences of Aulani will put the Disney spark of magic into
-                your Hawaiian getaway.
+                explore everything the Hawaiian islands have to offer. <br />
+                Set back from the crowds of Waikiki but close enough to enjoy
+                its attractions, Aulani is nestled between mountain ranges and
+                calming ocean waves. <br />
+                In addition to all the world-class amenities you expect from a
+                Disney Resort, there are island-themed activities for all to
+                enjoy. <br />
+                Matched only by the spectacular beauty of the islands, the
+                atmosphere and experiences of Aulani will put the Disney spark
+                of magic into your Hawaiian getaway.
               </p>
             </div>
             <div class="mt-7">

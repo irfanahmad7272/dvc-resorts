@@ -16,32 +16,37 @@
               <p class="text-custom-blue4 font-medium">
                 Disney’s Animal Kingdom Villas is a lodge-style resort featuring
                 spacious accommodations in a setting that make you feel like
-                you're right in the heart of Africa. Over 30 species of African
-                wildlife roam free amidst four lush, tropical savannas, which
-                you may view at observation stations throughout the resort and
-                from select guest room balconies. The resort is set in the
-                middle of an expansive wildlife preserve. It features authentic
-                African-inspired architecture and landscape design that allows
-                for expansive views of the savanna and its many animal
-                inhabitants. Thatched ceilings, large beams, a woven ceiling,
-                hand-carved golden-tone furnishings, genuine African artifacts,
-                and a vast mud fireplace greet you in the main lobby. Inside the
-                guest rooms, you'll discover more African architecture with
+                you're right in the heart of Africa. <br />
+                Over 30 species of African wildlife roam free amidst four lush,
+                tropical savannas, which you may view at observation stations
+                throughout the resort and from select guest room balconies.
+                <br />
+                The resort is set in the middle of an expansive wildlife
+                preserve. It features authentic African-inspired architecture
+                and landscape design that allows for expansive views of the
+                savanna and its many animal inhabitants. <br />
+                Thatched ceilings, large beams, a woven ceiling, hand-carved
+                golden-tone furnishings, genuine African artifacts, and a vast
+                mud fireplace greet you in the main lobby. Inside the guest
+                rooms, you'll discover more African architecture with
                 hand-carved columns, ornate floral hanging fixtures, golden-tone
                 furnishings, and floor lamps that resemble swaying trees.
                 Experience the untamed spirit of Africa with panoramic views
                 from Arusha Rock, an elevated rock platform just outside the
-                main lobby. Discover thousands of indigenous African shrubs,
-                grasses, and trees—including the most recognized canopy tree in
-                Africa, the Copper Pod. There are two places DVC members can
-                call home at Disney’s Animal Kingdom Villas. Jambo House is part
-                of the resort's central building and has been recognized for its
-                environmentally responsible practices by the Florida Green
-                Lodging Program. The Kidani Village Villas are separated from
-                Jambo House and extend out and take the shape of a water
-                buffalo’s horns or a piece of native African jewelry. There’s no
-                shortage of exciting family activities at Disney’s Animal
-                Kingdom Villas, from safaris to water slides to wildlife games.
+                main lobby. <br />
+                Discover thousands of indigenous African shrubs, grasses, and
+                trees—including the most recognized canopy tree in Africa, the
+                Copper Pod. There are two places DVC members can call home at
+                Disney’s Animal Kingdom Villas. <br />
+                Jambo House is part of the resort's central building and has
+                been recognized for its environmentally responsible practices by
+                the Florida Green Lodging Program. <br />
+                The Kidani Village Villas are separated from Jambo House and
+                extend out and take the shape of a water buffalo’s horns or a
+                piece of native African jewelry. <br />
+                There’s no shortage of exciting family activities at Disney’s
+                Animal Kingdom Villas, from safaris to water slides to wildlife
+                games. <br />
                 Amenities include two pool areas (complete with waterslides and
                 hot tubs), a playground that overlooks a flamingo habitat, and
                 wildlife viewing through observation stations located throughout

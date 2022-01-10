@@ -26,6 +26,7 @@ import VeroBeach from '../components/pages/resorts/vero-beach/VeroBeach'
 import IntervalResorts from '../components/pages/resorts/interval-resorts/IntervalResorts'
 // resorts end
 import Firpta from '../components/pages/firpta/Firpta'
+import WhyWaitlist from '../components/pages/why-waitlist/WhyWaitlist'
 Vue.use(VueRouter)
 const routes = [
   {
@@ -149,6 +150,11 @@ const routes = [
     path: '/firpta',
     name: 'Firpta',
     component: Firpta,
+  },
+  {
+    path: '/why-waitlist',
+    name: 'Why we have a Waitlist',
+    component: WhyWaitlist,
   },
 ]
 
