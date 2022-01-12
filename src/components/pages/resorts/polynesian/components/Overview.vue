@@ -15,13 +15,15 @@
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Discover a South Pacific paradise at Disney's Polynesian Villas
-                & Bungalows. Enjoy the Tiki torches and the white-sand beaches
-                of this getaway, inspired by the mysterious island of Bora Bora.
+                & Bungalows. <br />
+                Enjoy the Tiki torches and the white-sand beaches of this
+                getaway, inspired by the mysterious island of Bora Bora.
+                <br />
                 With spacious rooms and all the amenities of home, you can
                 unwind after a day of adventure at the Magic Kingdom—just a
-                short boat or monorail ride away. Relax in a plunge pool on your
-                private deck while you watch fireworks over Cinderella Castle as
-                the night descends.
+                short boat or monorail ride away. <br />
+                Relax in a plunge pool on your private deck while you watch
+                fireworks over Cinderella Castle as the night descends.
               </p>
             </div>
             <div class="mt-7">

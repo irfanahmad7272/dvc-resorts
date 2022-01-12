@@ -16,9 +16,10 @@
               <p class="text-custom-blue4 font-medium">
                 The only DVC resort located at Disneyland, the Villas at
                 Disney’s Grand Californian Hotel & Spa offer close access to all
-                the magic of Disneyland. The excitement and thrills of Disney's
-                California Adventure Park are minutes away. Enjoy world-class
-                amenities, recreation, and dining at this one-of-a-kind resort!
+                the magic of Disneyland. <br />
+                The excitement and thrills of Disney's California Adventure Park
+                are minutes away. Enjoy world-class amenities, recreation, and
+                dining at this one-of-a-kind resort!
               </p>
             </div>
             <div class="mt-7">

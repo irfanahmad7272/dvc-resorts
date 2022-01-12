@@ -16,16 +16,18 @@
               <p class="text-custom-blue4 font-medium">
                 The crescent-shaped Bay Lake Tower blends modern architectural
                 sensibilities with the trademark visual cues of its influential
-                neighbor, Disney’s Contemporary Resort. Defined by glass-wrapped
-                columns and warm woven woods, Bay Lake Tower is conveniently
-                located within walking distance of restaurants, tennis courts, a
-                health club, and other recreational activities. After a
-                fun-filled day at Magic Kingdom, walking back to your room is a
-                breeze and only takes a few minutes. Enjoy views of the
-                courtyard, pool, Bay Lake, and Magic Kingdom from the Sky Way
-                Bridge, which connects Bay Lake Tower with Disney's Contemporary
-                Resort. The bridge links you to shops, restaurants, and the
-                monorail station inside the Contemporary.
+                neighbor, Disney’s Contemporary Resort. <br />
+                Defined by glass-wrapped columns and warm woven woods, Bay Lake
+                Tower is conveniently located within walking distance of
+                restaurants, tennis courts, a health club, and other
+                recreational activities. <br />
+                After a fun-filled day at Magic Kingdom, walking back to your
+                room is a breeze and only takes a few minutes. <br />
+                Enjoy views of the courtyard, pool, Bay Lake, and Magic Kingdom
+                from the Sky Way Bridge, which connects Bay Lake Tower with
+                Disney's Contemporary Resort. <br />
+                The bridge links you to shops, restaurants, and the monorail
+                station inside the Contemporary.
               </p>
             </div>
             <div class="mt-7">

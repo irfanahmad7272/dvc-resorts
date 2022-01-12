@@ -15,14 +15,15 @@
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Go back to the ragtime era when you stay at the BoardWalk
-                Villas—Disney’s Atlantic City-inspired resort. Just a stone’s
-                throw from Epcot and Disney’s Hollywood Studios, the carnival
-                atmosphere of the Coney Island-style boardwalk will transport
-                you to a time and place worlds away. Enjoy the elegance and
-                charm of the early 1900s while still being conveniently located
-                to a full-entertainment district just outside your room,
-                including restaurants, shops, and recreational venues, plus all
-                the amenities of the nearby Yacht and Beach Clubs.
+                Villas—Disney’s Atlantic City-inspired resort. <br />
+                Just a stone’s throw from Epcot and Disney’s Hollywood Studios,
+                the carnival atmosphere of the Coney Island-style boardwalk will
+                transport you to a time and place worlds away. <br />
+                Enjoy the elegance and charm of the early 1900s while still
+                being conveniently located to a full-entertainment district just
+                outside your room, including restaurants, shops, and
+                recreational venues, plus all the amenities of the nearby Yacht
+                and Beach Clubs.
               </p>
             </div>
             <div class="mt-7">

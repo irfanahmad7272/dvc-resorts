@@ -15,9 +15,10 @@
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Take a trip back in time when you stay at Disney’s Hilton Head
-                Resort. Fashioned after a hunting and fishing lodge from the
-                1940s, Disney's Hilton Head Resort offers white sand beaches
-                contrasted by giant oak trees surrounding Shelter Cove Harbor.
+                Resort. <br />
+                Fashioned after a hunting and fishing lodge from the 1940s,
+                Disney's Hilton Head Resort offers white sand beaches contrasted
+                by giant oak trees surrounding Shelter Cove Harbor. <br />
                 Enjoy spacious vacation homes in the seclusion of this 15-acre
                 island nestled in South Carolina’s southernmost tip. Only 5
                 hours from Walt Disney World, this quiet getaway is the perfect

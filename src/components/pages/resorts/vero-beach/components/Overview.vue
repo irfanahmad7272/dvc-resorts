@@ -15,14 +15,16 @@
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 For those who prefer a more secluded location, Disney’s Vero
-                Beach Resort offers the perfect getaway. Escape the hustle and
-                bustle of the Orlando theme parks at this Atlantic Coast
-                paradise, located 2 hours southeast of Walt Disney World on the
-                white sands of Vero Beach. Whether you stay in a Villa or a
-                standalone cottage, the pristine white sandy beach lies on the
-                other side of your door. Fill your days with plenty of
-                recreational activities— both on and offshore, and enjoy the
-                surf and turf menus at the world-renowned local restaurants.
+                Beach Resort offers the perfect getaway. <br />
+                Escape the hustle and bustle of the Orlando theme parks at this
+                Atlantic Coast paradise, located 2 hours southeast of Walt
+                Disney World on the white sands of Vero Beach. <br />
+                Whether you stay in a Villa or a standalone cottage, the
+                pristine white sandy beach lies on the other side of your door.
+                <br />
+                Fill your days with plenty of recreational activities— both on
+                and offshore, and enjoy the surf and turf menus at the
+                world-renowned local restaurants.
               </p>
             </div>
             <div class="mt-7">

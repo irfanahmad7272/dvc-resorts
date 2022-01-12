@@ -2,10 +2,10 @@
   <div>
     <section class="bg-custom-light2">
       <div class="mx-auto pb-5">
-        <div class="mt-10 w-full relative text-center">
+        <div class="mt-6 w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-1 mx-auto">
           <router-link :to="resort.url" :key="i" v-for="(resort, i) in resorts">
             <button
-              class="w-36 md:w-40 xl:w-52 2xl:w-64 h-9 m-0.5 border border-custom-blue2 text-custom-blue5 rounded text-xl"
+              class="w-full h-9 border border-custom-blue2 text-custom-blue5 rounded text-xl"
               :class="
                 currentUrl == resort.url
                   ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'

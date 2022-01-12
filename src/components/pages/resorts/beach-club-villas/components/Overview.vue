@@ -12,16 +12,16 @@
                 Disney's Beach Club Villas
               </h2>
             </div>
-            <div class="my-3 overflow-auto md:text-2xl">
+            <div class="mt-2 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Relax with the charm of Disney's Beach Club Villas, modeled
                 after the romance and elegance of New England beach cottages
-                that dot the northeast. Amenities abound at the Beach Club and
-                its sister resort, the Yacht Club, including a wide selection of
-                dining locations, pools, and a white-sand beach. Shops,
-                entertainment, restaurants are a short walk away at Disney's
-                BoardWalk Inn. The resort is also within walking distance of
-                Epcot.
+                that dot the northeast. <br />
+                Amenities abound at the Beach Club and its sister resort, the
+                Yacht Club, including a wide selection of dining locations,
+                pools, and a white-sand beach. Shops, entertainment, restaurants
+                are a short walk away at Disney's BoardWalk Inn. <br />
+                The resort is also within walking distance of Epcot.
               </p>
             </div>
             <div class="mt-7">

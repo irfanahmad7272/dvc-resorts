@@ -15,15 +15,16 @@
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Disney's Saratoga Springs is the perfect getaway choice for
-                horse racing enthusiasts. Fashioned after the New York town
-                famous for horse racing, this resort blends Victorian style and
-                New England charm. Savor the world-class dining of The Turf Club
-                Bar and Grill, or express your inner artist at The Artist's
-                Palette, where you can enjoy a lighter fare as you create a
-                masterpiece on a tabletop easel. Relax in the ambiance of a New
-                York spa-getaway, surrounded by sun-soaked golf course greens
-                and the pristine Village Lake, while being only a short boat
-                ride away from Disney's Springs.
+                horse racing enthusiasts. <br />
+                Fashioned after the New York town famous for horse racing, this
+                resort blends Victorian style and New England charm. <br />
+                Savor the world-class dining of The Turf Club Bar and Grill, or
+                express your inner artist at The Artist's Palette, where you can
+                enjoy a lighter fare as you create a masterpiece on a tabletop
+                easel. <br />
+                Relax in the ambiance of a New York spa-getaway, surrounded by
+                sun-soaked golf course greens and the pristine Village Lake,
+                while being only a short boat ride away from Disney's Springs.
               </p>
             </div>
             <div class="mt-7">

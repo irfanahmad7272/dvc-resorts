@@ -66,11 +66,13 @@
                 you can see how many people we have waiting for a membership
                 like yours.
               </p>
-              <div class="w-full relative text-center">
+              <div
+                class="w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-1 mx-auto"
+              >
                 <button
                   v-for="(resort, i) in resorts"
                   :key="i"
-                  class="w-36 md:w-40 xl:w-48 2xl:w-64 h-9 m-0.5 border border-custom-blue2 hover:bg-custom-lightcream text-custom-blue5 rounded text-xl"
+                  class="w-full h-9 border border-custom-blue2 hover:bg-custom-lightcream text-custom-blue5 rounded text-xl"
                   :class="
                     selected_resorts.includes(resort)
                       ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'

@@ -17,16 +17,18 @@
                 With luxurious accommodations, five-star dining, and plenty of
                 amenities, the Villas at Disney’s Grand Floridian Resort and Spa
                 are the perfect way to enjoy a family vacation fit for royalty.
+                <br />
                 Styled with old-world charm and antique finishes, the Grand
                 Floridian reminds guests of the days when the Victorian
                 well-to-do flocked to Florida's sunny beaches to escape chilly
                 winters up north. Everything about your stay is a pleasurable
-                experience. Enjoy the sounds of a pianist or jazz band upon
-                entering the main lobby, take a ride on the antique glass
-                elevator, or shop 'til you drop at designer clothing and
-                accessories stores. A white-sand beach and marina provide the
-                perfect place to view nightly fireworks or the Electrical Water
-                Pageant.
+                experience. <br />
+                Enjoy the sounds of a pianist or jazz band upon entering the
+                main lobby, take a ride on the antique glass elevator, or shop
+                'til you drop at designer clothing and accessories stores.
+                <br />
+                A white-sand beach and marina provide the perfect place to view
+                nightly fireworks or the Electrical Water Pageant.
               </p>
             </div>
             <div class="mt-7">

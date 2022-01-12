@@ -16,13 +16,14 @@
               <p class="text-custom-blue4 font-medium">
                 The Boulder Ridge Villas at Disney's Wilderness Lodge celebrate
                 the rustic majesty of the Pacific Northwest and the grandeur of
-                the National Parks. Modeled after the grand National Park lodges
-                from the turn of the century, the Wilderness Lodge applauds
-                American craftsmanship while honoring the untamed wilderness.
+                the National Parks. <br />
+                Modeled after the grand National Park lodges from the turn of
+                the century, the Wilderness Lodge applauds American
+                craftsmanship while honoring the untamed wilderness. <br />
                 Explore nature trails or relax on a rocking chair with a view of
-                a nearby brook. Intricate and towering totem poles adorn the
-                resort's interior, as well as a roaring fireplace complete with
-                comfy armchairs.
+                a nearby brook. <br />
+                Intricate and towering totem poles adorn the resort's interior,
+                as well as a roaring fireplace complete with comfy armchairs.
               </p>
             </div>
             <div class="mt-7">

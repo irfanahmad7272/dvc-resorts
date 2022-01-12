@@ -16,16 +16,18 @@
               <p class="text-custom-blue4 font-medium">
                 Escape to a rustic retreat where your family can relax and
                 reconnect while enjoying all the amenities and benefits of a
-                Disney Resort. Structured as a "base camp" and modeled after the
-                legendary National Park lodges of the 20th century, Copper Creek
-                Villas & Cabins at Disney’s Wilderness Lodge is a fantastic
-                place to call home. Though you're immersed in natural
-                surroundings, you're just around the river bend from Magic
-                Kingdom. The Copper Creek Villas include 26 waterfront cabins
-                with screened wrap-around porches and hot tubs. Settle into your
-                Disney Vacation Club villa and enjoy all of the amenities and
-                recreational offerings available at this second DVC location at
-                Disney’s Wilderness Lodge.
+                Disney Resort. <br />
+                Structured as a "base camp" and modeled after the legendary
+                National Park lodges of the 20th century, Copper Creek Villas &
+                Cabins at Disney’s Wilderness Lodge is a fantastic place to call
+                home. <br />
+                Though you're immersed in natural surroundings, you're just
+                around the river bend from Magic Kingdom. The Copper Creek
+                Villas include 26 waterfront cabins with screened wrap-around
+                porches and hot tubs. <br />
+                Settle into your Disney Vacation Club villa and enjoy all of the
+                amenities and recreational offerings available at this second
+                DVC location at Disney’s Wilderness Lodge.
               </p>
             </div>
             <div class="mt-7">

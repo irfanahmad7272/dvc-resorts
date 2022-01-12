@@ -19,10 +19,13 @@
                 and it remains one of the most popular places to call "home"
                 today. Serene waterways, iconic palm trees, and inviting golf
                 fairways create a vista reminiscent of Hemingway’s home in Key
-                West. Old Key West is a tropical oasis in the heart of the Walt
-                Disney World property, complete with relaxing pools and casual
-                dining. It's the definite choice for those who prefer a more
-                laid-back environment to laze their days away.
+                West.
+                <br />
+                Old Key West is a tropical oasis in the heart of the Walt Disney
+                World property, complete with relaxing pools and casual dining.
+                <br />
+                It's the definite choice for those who prefer a more laid-back
+                environment to laze their days away.
               </p>
             </div>
             <div class="mt-7">

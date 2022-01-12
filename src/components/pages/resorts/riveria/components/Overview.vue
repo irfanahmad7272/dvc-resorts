@@ -17,15 +17,15 @@
                 The grandeur of historic European villages and fairy-tale
                 castles have inspired Disney's greatest stories. That
                 inspiration has been taken across the pond and transformed into
-                Disney's 15th Disney Vacation Club resort. Grand archways, a
-                stunning façade, porticos, and terraces come together to create
-                this unique and striking resort that draws upon European and
-                Medittearnan influences. This new resort includes various
-                updates and amenities that add modern elements to classic
-                surroundings. Artist touches are seen throughout the resort,
-                including an art gallery in the main lobby. Beautiful gardens
-                and a peaceful waterfront make the resort shine from the inside
-                out.
+                Disney's 15th Disney Vacation Club resort. <br />
+                Grand archways, a stunning façade, porticos, and terraces come
+                together to create this unique and striking resort that draws
+                upon European and Medittearnan influences. <br />
+                This new resort includes various updates and amenities that add
+                modern elements to classic surroundings. <br />
+                Artist touches are seen throughout the resort, including an art
+                gallery in the main lobby. Beautiful gardens and a peaceful
+                waterfront make the resort shine from the inside out.
               </p>
             </div>
             <div class="mt-7">
