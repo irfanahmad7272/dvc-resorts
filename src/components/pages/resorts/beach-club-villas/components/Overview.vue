@@ -12,7 +12,7 @@
                 Disney's Beach Club Villas
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Relax with the charm of Disney's Beach Club Villas, modeled
                 after the romance and elegance of New England beach cottages

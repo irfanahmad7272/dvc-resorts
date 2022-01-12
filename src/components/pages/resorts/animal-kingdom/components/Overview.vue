@@ -12,7 +12,7 @@
                 DISNEY'S ANIMAL KINGDOM
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Disney’s Animal Kingdom Villas is a lodge-style resort featuring
                 spacious accommodations in a setting that make you feel like

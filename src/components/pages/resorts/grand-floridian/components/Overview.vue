@@ -12,7 +12,7 @@
                 Grand Floridian
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 With luxurious accommodations, five-star dining, and plenty of
                 amenities, the Villas at Disney’s Grand Floridian Resort and Spa

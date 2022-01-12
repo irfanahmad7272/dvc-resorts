@@ -12,7 +12,7 @@
                 Disney's Boulder Ridge Villas
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 The Boulder Ridge Villas at Disney's Wilderness Lodge celebrate
                 the rustic majesty of the Pacific Northwest and the grandeur of

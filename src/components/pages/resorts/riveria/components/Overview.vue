@@ -12,7 +12,7 @@
                 Disney's Riveria
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 The grandeur of historic European villages and fairy-tale
                 castles have inspired Disney's greatest stories. That

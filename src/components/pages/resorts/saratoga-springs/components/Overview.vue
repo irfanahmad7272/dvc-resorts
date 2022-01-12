@@ -12,7 +12,7 @@
                 Disney's Saratoga Springs Resort & Spa
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Disney's Saratoga Springs is the perfect getaway choice for
                 horse racing enthusiasts. Fashioned after the New York town

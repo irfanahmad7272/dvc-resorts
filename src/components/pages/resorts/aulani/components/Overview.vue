@@ -12,7 +12,7 @@
                 Aulani, Disney Vacation Club Villas, Ko Olina, Hawaii
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Experience the magic of Hawaii at Disney’s Aulani Resort and
                 Spa. Located on the white-sand beaches of Oahu, the Villas of

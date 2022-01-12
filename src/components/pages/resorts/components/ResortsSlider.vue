@@ -3,7 +3,7 @@
     <VueSlickCarousel :autoplay="true" :arrows="true" :dots="true">
       <div v-for="(img, i) in images" :key="i">
         <img
-          class="w-full h-64 md:h-96 pointer-events-none"
+          class="w-full h-64 md:h-96 2xl:h-[28rem] pointer-events-none"
           :src="img"
           alt="slider-imgs"
         />

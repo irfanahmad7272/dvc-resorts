@@ -12,7 +12,7 @@
                 Disney's Old Key West Resort
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Embrace the ambiance and romance of the Florida Keys—in Central
                 Florida! Old Key West was Disney's first Vacation Club resort,

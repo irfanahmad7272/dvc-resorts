@@ -12,7 +12,7 @@
                 Disney's Copper Creek Villas & Cabins
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Escape to a rustic retreat where your family can relax and
                 reconnect while enjoying all the amenities and benefits of a

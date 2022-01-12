@@ -12,7 +12,7 @@
                 Disney's BoardWalk Villas
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Go back to the ragtime era when you stay at the BoardWalk
                 Villas—Disney’s Atlantic City-inspired resort. Just a stone’s

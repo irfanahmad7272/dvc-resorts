@@ -12,7 +12,7 @@
                 Disney's Polynesian Villas & Bungalows
               </h2>
             </div>
-            <div class="mt-2 overflow-auto md:text-2xl">
+            <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
                 Discover a South Pacific paradise at Disney's Polynesian Villas
                 & Bungalows. Enjoy the Tiki torches and the white-sand beaches
