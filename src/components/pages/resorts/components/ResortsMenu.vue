@@ -5,7 +5,7 @@
         <div class="mt-10 w-full relative text-center">
           <router-link :to="resort.url" :key="i" v-for="(resort, i) in resorts">
             <button
-              class="w-36 md:w-40 xl:w-52 2xl:w-64 h-9 m-0.5 border border-custom-blue2 text-custom-blue5 rounded text-[20px]"
+              class="w-36 md:w-40 xl:w-52 2xl:w-64 h-9 m-0.5 border border-custom-blue2 text-custom-blue5 rounded text-xl"
               :class="
                 currentUrl == resort.url
                   ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'
@@ -41,7 +41,7 @@ export default {
         { name: "SARATOGA SPRINGS", url: "/saratoga-springs" },
         { name: "RIVERA", url: "/rivera" },
         { name: "VERO BEACH", url: "/vero-beach" },
-        { name: "Interval RESORTS", url: "/interval-resorts" },
+        { name: "INTERVAL RESORTS", url: "/interval-resorts" },
       ],
     };
   },
