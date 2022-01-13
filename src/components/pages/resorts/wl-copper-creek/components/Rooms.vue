@@ -42,46 +42,43 @@ export default {
     return {
       activePage: "Deluxe Studio",
       activeFloor: 0,
-      floors: {
-        name: "Floor Plans",
-        imgs: [
-          "/assets/resorts/copper-creek/floor/1.png",
-          "/assets/resorts/copper-creek/floor/2.png",
-          "/assets/resorts/copper-creek/floor/3.png",
-          "/assets/resorts/copper-creek/floor/4.png",
-          "/assets/resorts/copper-creek/floor/3.png",
-        ],
-        description: [
-          {
-            name: "Copper Creek Floor plan One Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Copper Creek Floor plan Studio Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Copper Creek Floor plan Studio Kadani Village",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Copper Creek Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Copper Creek Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Copper Creek Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-        ],
-      },
+      floors: [
+        {
+          img: "/assets/resorts/copper-creek/floor/1.png",
+          name: "Copper Creek Floor plan One Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/2.png",
+          name: "Copper Creek Floor plan Studio Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/3.png",
+          name: "Copper Creek Floor plan Studio Kadani Village",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/4.png",
+          name: "Copper Creek Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/3.png",
+          name: "Copper Creek Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/3.png",
+          name: "Copper Creek Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/copper-creek/floor/3.png",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+      ],
       tabs: [
         {
           name: "Deluxe Studio",

@@ -72,7 +72,7 @@
                 <button
                   v-for="(resort, i) in resorts"
                   :key="i"
-                  class="w-full h-9 border border-custom-blue2 hover:bg-custom-lightcream text-custom-blue5 rounded text-xl"
+                  class="w-full h-9 border border-custom-blue2 hover:bg-custom-lightcream text-custom-blue5 rounded text-2xl"
                   :class="
                     selected_resorts.includes(resort)
                       ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'

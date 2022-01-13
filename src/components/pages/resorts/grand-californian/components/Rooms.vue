@@ -42,45 +42,40 @@ export default {
     return {
       activePage: "Deluxe Studio",
       activeFloor: 0,
-      floors: {
-        name: "Floor Plans",
-        imgs: [
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan One Bedroom Jambo House.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
-        ],
-        description: [
-          {
-            name: "Grand Californian Floor plan One Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Grand Californian Floor plan Studio Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Grand Californian Floor plan Studio Kadani Village",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Grand Californian Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-        ],
-      },
+      floors: [
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan One Bedroom Jambo House.jpg",
+          name: "Grand Californian Floor plan One Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
+          name: "Grand Californian Floor plan Studio Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
+          name: "Grand Californian Floor plan Studio Kadani Village",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
+          name: "Grand Californian Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+      ],
       tabs: [
         {
           name: "Deluxe Studio",

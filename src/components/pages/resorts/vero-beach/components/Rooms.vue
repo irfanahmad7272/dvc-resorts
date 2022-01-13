@@ -42,46 +42,44 @@ export default {
     return {
       activePage: "Deluxe Studio",
       activeFloor: 0,
-      floors: {
-        name: "Floor Plans",
-        imgs: [
-          "/assets/resorts/vero-beach/floor/1.png",
-          "/assets/resorts/vero-beach/floor/2.png",
-          "/assets/resorts/vero-beach/floor/3.png",
-          "/assets/resorts/vero-beach/floor/4.png",
-          "/assets/resorts/vero-beach/floor/5.png",
-        ],
-        description: [
-          {
-            name: "Vero beach Floor plan One Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Vero beach Floor plan Studio Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Vero beach Floor plan Studio Kadani Village",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Vero beach Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Vero beach Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Vero beach Floor plan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-        ],
-      },
+      floors: [
+        {
+          img: "/assets/resorts/vero-beach/floor/1.png",
+          name: "Vero beach Floor plan One Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/2.png",
+          name: "Vero beach Floor plan Studio Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/3.png",
+          name: "Vero beach Floor plan Studio Kadani Village",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/4.png",
+          name: "Vero beach Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/5.png",
+          name: "Vero beach Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/5.png",
+          name: "Vero beach Floor plan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/vero-beach/floor/5.png",
+
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+      ],
       tabs: [
         {
           name: "Deluxe Studio",

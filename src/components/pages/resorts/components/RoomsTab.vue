@@ -32,15 +32,7 @@
         <h1 class="text-3xl font-semibold text-custom-blue4">Floor Plans</h1>
       </div>
       <div class="py-10 px-5 md:px-0">
-        <ResortsSlider :images="floorImgs" />
-      </div>
-      <div>
-        <span class="inline-block w-8/12 text-lg text-custom-blue4 mt-5">
-          {{ floors.description[activeFloor].name }}
-        </span>
-        <span class="inline-block w-8/12 text-lg text-custom-blue4 mt-5">
-          {{ floors.description[activeFloor].size }}
-        </span>
+        <ResortsSlider :images="floors" />
       </div>
     </div>
   </div>
@@ -51,6 +43,6 @@ export default {
   components: {
     ResortsSlider,
   },
-  props: ["tabs", "activePage", "floors", "activeFloor", "floorImgs"],
+  props: ["tabs", "activePage", "floors", "activeFloor"],
 };
 </script>

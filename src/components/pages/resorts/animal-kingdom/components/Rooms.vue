@@ -27,7 +27,6 @@
         :tabs="tabs"
         :activePage="activePage"
         :floors="floors"
-        :floorImgs="floors.imgs"
         :activeFloor="activeFloor"
       />
     </div>
@@ -43,49 +42,55 @@ export default {
     return {
       activePage: "Studio",
       activeFloor: 0,
-      floors: {
-        name: "Floor Plans",
-        imgs: [
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan One Bedroom Jambo House.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Two Bedroom Jambo House.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 1 Bedroom.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom Lock-Off.jpg",
-          "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom.jpg",
-        ],
-        description: [
-          {
-            name: "Animal Kingdom Floorplan One Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Studio Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Studio Kadani Village",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-        ],
-      },
+      floors: [
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
+          name: "Animal Kingdom Floorplan One Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
+          name: "Animal Kingdom Floorplan Studio Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
+          name: "Animal Kingdom Floorplan Studio Kadani Village",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Two Bedroom Jambo House.jpg",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 1 Bedroom.jpg",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom Lock-Off.jpg",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom.jpg",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+
+        {
+          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom.jpg",
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+      ],
       tabs: [
         {
           name: "Studio",

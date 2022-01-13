@@ -43,44 +43,27 @@ export default {
     return {
       activePage: "Deluxe Studio",
       activeFloor: 0,
-      floors: {
-        name: "Floor Plans",
-        imgs: [
-          "/assets/resorts/polynesian/floor/1.png",
-          "/assets/resorts/polynesian/floor/1.png",
-          "/assets/resorts/polynesian/floor/1.png",
-        ],
-        description: [
-          {
-            name: "Polynensian Floor plan One Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Polynensian Floor plan Studio Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Polynensian Floor plan Studio Kadani Village",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-          {
-            name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-            size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-          },
-        ],
-      },
+      floors: [
+        {
+          img: "/assets/resorts/polynesian/floor/1.png",
+          name: "Polynensian Floor plan One Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/polynesian/floor/1.png",
+          name: "Polynensian Floor plan Studio Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          img: "/assets/resorts/polynesian/floor/1.png",
+          name: "Polynensian Floor plan Studio Kadani Village",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+        {
+          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+        },
+      ],
       tabs: [
         {
           name: "Deluxe Studio",
