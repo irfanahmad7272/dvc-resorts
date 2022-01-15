@@ -27,6 +27,9 @@ import IntervalResorts from '../components/pages/resorts/interval-resorts/Interv
 // resorts end
 import Firpta from '../components/pages/firpta/Firpta'
 import WhyWaitlist from '../components/pages/why-waitlist/WhyWaitlist'
+import SalesDifference from '../components/pages/dvc-sales-difference/SalesDifference'
+import HistoricalSalesChart from '../components/pages/historical-sales-chart/HistoricalSalesChart'
+import Financing from '../components/pages/available-financing/Financing'
 Vue.use(VueRouter)
 const routes = [
   {
@@ -155,6 +158,21 @@ const routes = [
     path: '/why-waitlist',
     name: 'Why we have a Waitlist',
     component: WhyWaitlist,
+  },
+  {
+    path: '/sales-difference',
+    name: 'Dvc Sales Difference',
+    component: SalesDifference,
+  },
+  {
+    path: '/historical-sales-chart',
+    name: 'Historical Sales Chart',
+    component: HistoricalSalesChart,
+  },
+  {
+    path: '/financing',
+    name: 'Financing',
+    component: Financing,
   },
 ]
 
