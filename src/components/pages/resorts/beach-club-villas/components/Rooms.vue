@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -44,24 +42,24 @@ export default {
       activeFloor: 0,
       floors: [
         {
-          img: "/assets/resorts/beach-club-villas/floor/1.png",
-          name: "Beach Club Villas Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/beach-club-villas/floor/1.jpg",
+          name: "Deluxe Studio Villas, sleeps 5",
+          size: "features a Queen bed, double sleeper sofa, pull out bed from the entertainment center, wet bar with under-counter refrigerator, microwave oven and coffeemaker, ceiling fan, color cable television, private balcony or porch.",
         },
         {
-          img: "/assets/resorts/beach-club-villas/floor/2.png",
-          name: "Beach Club Villas Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/beach-club-villas/floor/2.jpg",
+          name: "One Bedroom Villa",
+          size: "Accommodates four adults plus one child under three in a crib. Master suite with king-sized bed and private bath with whirlpool tub, fully equipped kitchen, ceiling fans in living room and bedroom, stack-style washer and dryer, color cable television with DVD player in living room and color television in bedroom, queen-sized sofa sleeper in living room, private balcony or porch. * Fifth guest can be accommodated but must provide own bedding and linens.",
         },
         {
-          img: "/assets/resorts/beach-club-villas/floor/3.png",
-          name: "Beach Club Villas Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/beach-club-villas/floor/3.jpg",
+          name: "2 Bedroom Villa",
+          size: "Master suite with king-sized bed and private bath with whirlpool tub, second bedroom with queen bed and double sleeper sofa.",
         },
         {
           img: "/assets/resorts/beach-club-villas/floor/4.png",
-          name: "Beach Club Villas Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Beach Club Villas Floor plan Three Bedroom ",
+          size: "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
         },
       ],
       tabs: [
@@ -79,7 +77,7 @@ export default {
             "/assets/resorts/beach-club-villas/beach-club-villas-resort-deluxe-room9.webp",
           ],
           description:
-            "Sleeps up to 5 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and porch or balcony",
+            "1 Queen Bed and 1 Double-Size Sleeper Sofa and 1 Single Pull Down Bed. (Sleeps up to 5 Adults)",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",
@@ -112,7 +110,7 @@ export default {
             "/assets/resorts/beach-club-villas/beach-club-villas-resort-1-bedroom-villa10.webp",
           ],
           description:
-            "Sleeps up to 4 Adults Great for families, villas include a full kitchen and a split bathroom that features 2 sink areas.",
+            "Views of Disney's Beach Club Resort, Woods, Pool or Courtyard Views of Disney's Beach Club Resort, Woods, Pool or Courtyard1 King Bed and 1 Double-Size Sleeper Sofa or 1 King Bed and 1 Queen-Size Sleeper Sofa. (Sleeps up to 4 Adults) ",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",
@@ -145,7 +143,7 @@ export default {
             "/assets/resorts/beach-club-villas/beach-club-villas-resort-2-bedroom-villa9.webp",
           ],
           description:
-            "Sleeps up to 8 Adults Great for a large family, villas include a full kitchen, dining area, washer and dryer",
+            "Views of Disney's Beach Club Resort,  Woods, Pool or Courtyard 1 King Bed and 2 Queen Beds and 1 Queen-Size Sleeper Sofa or 1 King Bed and 2 Queen Beds and 1 Double-Size Pull Down Bed. (Sleeps up to 8 Adults)",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",

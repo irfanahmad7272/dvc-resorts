@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -44,24 +42,24 @@ export default {
       activeFloor: 0,
       floors: [
         {
-          img: "/assets/resorts/bay-lake-tower/floor/1.png",
-          name: "Bay Lake Tower Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/bay-lake-tower/floor/1.jpg",
+          name: "Deluxe Studio Villas",
+          size: "Feature one full bathroom and accommodate up to four Guests, plus one child under age three in a crib, and include a kitchenette, queen-size bed, double-size sleeper sofa, flat-panel TV, DVD player and private balcony.",
         },
         {
-          img: "/assets/resorts/bay-lake-tower/floor/2.png",
-          name: "Bay Lake Tower Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/bay-lake-tower/floor/2.jpg",
+          name: "One-Bedroom Vacation Homes",
+          size: "Feature two full bathrooms and accommodate up to five Guests, plus one child under age three in a crib. Each offers a fully equipped kitchen, king-size bed in the master bedroom, whirlpool tub in the master bathroom, queen-size sleeper sofa, sleeper chair, flat-panel TV, DVD player, washer, dryer and private balcony.",
         },
         {
-          img: "/assets/resorts/bay-lake-tower/floor/3.png",
-          name: "Bay Lake Tower Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/bay-lake-tower/floor/3.jpg",
+          name: "Two-Bedroom Vacation Homes",
+          size: "Feature three full bathrooms. Each features the amenities of a One-Bedroom Vacation Home, plus an additional bedroom with flat-panel TV, DVD player, two queen-size beds and private bathroom.",
         },
         {
-          img: "/assets/resorts/bay-lake-tower/floor/1.png",
-          name: "Bay Lake Tower Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/bay-lake-tower/floor/4.png",
+          name: "Two-Bedroom Lock-Off Vacation Homes",
+          size: "Feature three full bathrooms. Each features the amenities of a One-Bedroom Vacation Home, plus an additional bedroom with flat-panel TV, DVD player, queen-size bed, double-size sleeper sofa, and private bathroom.",
         },
       ],
       tabs: [

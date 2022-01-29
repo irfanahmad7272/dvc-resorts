@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -45,38 +43,40 @@ export default {
       activeFloor: 0,
       floors: [
         {
-          img: "/assets/resorts/aulani/floor/1.png",
-          name: "Aulani Floorplan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/aulani/floor/1.jpg",
+          name: "2 queen-size beds",
+          size: "Sleeps Up to 4 Guests and 1 infant (under 3 years of age)",
         },
         {
-          img: "/assets/resorts/aulani/floor/2.png",
-          name: "Aulani Floorplan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/aulani/floor/2.jpg",
+          name: "1 queen-size bed and 1 queen-size sleeper sofa",
+          size: "Sleeps Up to 4 Guests and 1 infant (under 3 years of age)",
         },
         {
-          img: "/assets/resorts/aulani/floor/3.png",
-          name: "Aulani Floorplan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/aulani/floor/3.jpg",
+          name: "1 queen-size bed and 1 queen-size sleeper sofa",
+          size: "Sleeps Up to 4 Guests and 1 infant (under 3 years of age)",
         },
         {
-          img: "/assets/resorts/aulani/floor/4.png",
-          name: "Aulani Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/aulani/floor/4.jpg",
+          name: "1 king-size bed, 1 queen-size sleeper sofa, 1 single pull-down bed ",
+          size: "Sleeps Up to 5 Guests and 1 infant (under 3 years of age)",
+        },
+        {
+          img: "/assets/resorts/aulani/floor/5.jpg",
+          name: "1 king-size bed, 1 queen-size sleeper sofa, 1 single pull-down bed ",
+          size: "Sleeps Up to 5 Guests and 1 infant (under 3 years of age)",
+        },
+        {
+          img: "/assets/resorts/aulani/floor/6.jpg",
+          name: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa, 1 sleep chair",
+          size: "Sleeps Up to 12 Guests and 1 infant (under 3 years of age)",
         },
       ],
       tabs: [
         {
           name: "Hotel Room",
-          imgs: [
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 1.jpg",
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 5.jpg",
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 6.jpg",
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 11.jpg",
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 13.jpg",
-            "/assets/resorts/animal-kingdom/Animal Kingdom Studio 16.jpg",
-            // "/assets/resorts/animal-kingdom/Animal Kingdom Studio 18 (2).jpg",
-          ],
+          imgs: ["/assets/resorts/aulani/rooms/1.jpg", "/assets/resorts/aulani/rooms/2.webp"],
           description:
             "2 queen-size beds Sleeps Up to 4 Guests and 1 infant (under 3 years of age) 17 Vacation Points Per Night Points Chart- Modal Deluxe Studio",
           amenities: [
@@ -134,8 +134,7 @@ export default {
             "/assets/resorts/aulani/rooms/1bedvila/Aulani Rooms 1 Bedroom Master Bedroom 1.jpg",
             "/assets/resorts/aulani/rooms/1bedvila/Aulani Rooms 1 Bedroom Master Bedroom 13.jpg",
           ],
-          description:
-            "1 king-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
+          description: "1 king-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
           amenities: [
             "Fully equipped kitchen",
             "Dishwasher",
@@ -240,7 +239,7 @@ export default {
             "/assets/resorts/aulani/rooms/3bed/Aulani Rooms 3 Bedroom Grand Villa 5.png",
           ],
           description:
-            "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 12 Guests and 1 infant (under 3 years of age)",
+            "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 12 Guests and 1 infant (under 3 years of age)",
           amenities: [
             "Toaster",
             "Dishwasher",

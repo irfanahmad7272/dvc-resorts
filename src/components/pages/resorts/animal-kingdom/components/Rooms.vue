@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,22 +13,15 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
         </ul>
       </div>
-      <RoomsTab
-        :tabs="tabs"
-        :activePage="activePage"
-        :floors="floors"
-        :activeFloor="activeFloor"
-      />
+      <RoomsTab :tabs="tabs" :activePage="activePage" :floors="floors" :activeFloor="activeFloor" />
     </div>
   </div>
 </template>
@@ -101,8 +94,7 @@ export default {
             "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Studio.jpg",
             "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Three-Bedroom-a.jpg",
           ],
-          description:
-            "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
+          description: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
           amenities: [
             "Kitchenette",
             "Voicemail ",
@@ -124,8 +116,7 @@ export default {
             "/assets/resorts/animal-kingdom/Animal Kingdom Studio 1.jpg",
             "/assets/resorts/animal-kingdom/Animal Kingdom Studio 1.jpg",
           ],
-          description:
-            "1 king-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
+          description: "1 king-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
           amenities: [
             "Fully equipped kitchen",
             "Dishwasher",
@@ -156,7 +147,7 @@ export default {
             "/assets/resorts/animal-kingdom/Animal Kingdom Two Bedroom 14.jpg",
           ],
           description:
-            "1 King Bed and 2 Queen Beds and 1 Queen-Size Sleeper Sofa and 1 Twin-Size Sleeper Chair Sleeps up to 9 Adults",
+            "1 King Bed and 1 Queen Beds and 1 Queen-Size Sleeper Sofa and 1 Twin-Size Sleeper Chair Sleeps up to 9 Adults",
           amenities: [
             "Dishwasher",
             "Dishes",
@@ -185,11 +176,9 @@ export default {
         },
         {
           name: "3-Bedroom Grand Villa",
-          imgs: [
-            "/assets/resorts/animal-kingdom/Animal Kingdom Two Bedroom 14.jpg",
-          ],
+          imgs: ["/assets/resorts/animal-kingdom/Animal Kingdom Two Bedroom 14.jpg"],
           description:
-            "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+            "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
           amenities: [
             "Toaster",
             "Pots and pans",

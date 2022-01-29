@@ -2,9 +2,9 @@
   <div>
     <div class="mt-12 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="bg-custom-lightcream mx-auto m-20">
+        <ul class="bg-custom-lightcream m-20 mx-auto">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="(tab, index) in tabs"
             @click="activePage = tab.name"
@@ -31,9 +31,9 @@ export default {
         {
           name: "ʻAMAʻAMA – Contemporary Island Cooking",
           imgs: [
-            "/assets/resorts/aulani/dinning/amma/1.png",
-            "/assets/resorts/aulani/dinning/amma/2.png",
-            "/assets/resorts/aulani/dinning/amma/3.png",
+            "/assets/resorts/aulani/dinning/amma/1.webp",
+            "/assets/resorts/aulani/dinning/amma/2.webp",
+            "/assets/resorts/aulani/dinning/amma/3.webp",
           ],
           description:
             " Sit back and relax at this beachfront eatery and let the sound of the ocean waves calm you.  The menu rotates throughout the year, highlighting fresh ingredients and modern twists on Hawaiian cuisine. ",
@@ -41,8 +41,10 @@ export default {
         {
           name: "Disney Character Breakfast at Makahiki",
           imgs: [
-            "/assets/resorts/aulani/dinning/amma/3.png",
-            "/assets/resorts/aulani/dinning/mamas/2.png",
+            "/assets/resorts/aulani/dinning/malhaki/1.png",
+            "/assets/resorts/aulani/dinning/malhaki/2.png",
+            "/assets/resorts/aulani/dinning/malhaki/3.png",
+            "/assets/resorts/aulani/dinning/malhaki/4.jpg",
           ],
           description:
             "This full-service restaurant offers buffet and à la carte options in a family-friendly atmosphere with an open-air dining room.  Join your favorite Disney characters for breakfast, which includes tropical fruits, fresh pastries, and other specialties. At dinner, enjoy a fixed, three-course meal that infuses local ingredients into the main entrees. ",
