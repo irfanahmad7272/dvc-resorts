@@ -22,5 +22,8 @@
   </div>
 </template>
 <script>
-export default {};
+import Header from "../layout/header/Header.vue";
+export default {
+  components: { Header },
+};
 </script>

@@ -30,6 +30,8 @@ import WhyWaitlist from '../components/pages/why-waitlist/WhyWaitlist'
 import SalesDifference from '../components/pages/dvc-sales-difference/SalesDifference'
 import HistoricalSalesChart from '../components/pages/historical-sales-chart/HistoricalSalesChart'
 import Financing from '../components/pages/available-financing/Financing'
+import Blogs from '../components/pages/blogs/Blogs'
+import BlogDetail from '../components/pages/blogs/BlogDetail'
 Vue.use(VueRouter)
 const routes = [
   {
@@ -173,6 +175,16 @@ const routes = [
     path: '/financing',
     name: 'Financing',
     component: Financing,
+  },
+   {
+    path: '/blogs',
+    name: 'Blogs',
+    component: Blogs,
+  },
+   {
+    path: '/blog-detail',
+    name: 'Blog Detail',
+    component: BlogDetail,
   },
 ]
 

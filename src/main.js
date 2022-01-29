@@ -4,10 +4,12 @@ import './index.css'
 import router from './router'
 import HighchartsVue from 'highcharts-vue'
 import Highcharts from 'highcharts'
-import exportingInit from 'highcharts/modules/exporting'
+// import exportingInit from 'highcharts/modules/exporting'
+import highchartsMore from "highcharts/highcharts-more";
 import seriesLable from "highcharts/modules/series-label"
-exportingInit(Highcharts)
+// exportingInit(Highcharts)
 seriesLable(Highcharts)
+highchartsMore(Highcharts)
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 Vue.use(HighchartsVue)
