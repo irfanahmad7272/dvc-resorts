@@ -2,9 +2,9 @@
   <div>
     <div class="mt-12 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="bg-custom-lightcream mx-auto m-20">
+        <ul class="bg-custom-lightcream m-20 mx-auto">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="(tab, index) in tabs"
             @click="activePage = tab.name"
@@ -30,13 +30,20 @@ export default {
       tabs: [
         {
           name: "Tide Me Over",
-          imgs: ["/assets/resorts/hilton-head/dining/tide/1.jpg"],
+          imgs: [
+            "/assets/resorts/hilton-head/dining/tide/1.jpg",
+            "/assets/resorts/hilton-head/dining/tide/2.jpg",
+            "/assets/resorts/hilton-head/dining/tide/3.jpg",
+          ],
           description:
             "A quick pit stop and snack bar featuring burgers, sandwiches, salads, and South Carolina favorites. Nestled near the Board Creek Mercantile, stop by Tide Me Over to refuel between activities. Order ahead for an even faster pick-up!",
         },
         {
           name: "Signals Seaside Grill",
-          imgs: ["/assets/resorts/hilton-head/dining/signal/1.jpg"],
+          imgs: [
+            "/assets/resorts/hilton-head/dining/signal/1.webp",
+            "/assets/resorts/hilton-head/dining/signal/2.webp",
+          ],
           description:
             "Purchase a refillable mug and get free refills during your entire stay at this quick-service eatery located inside Disney's Beach House. Offerings include salads, sandwiches, and sweet treats. ",
         },
