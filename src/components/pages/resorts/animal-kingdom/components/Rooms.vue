@@ -2,9 +2,9 @@
   <div>
     <div class="mt-10 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
+        <ul class="mx-auto mb-8 bg-custom-lightcream md:mt-20">
           <li
-            class="border-custom-blue4 cursor-pointer border py-2 px-4"
+            class="cursor-pointer border border-custom-blue4 py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,7 +13,7 @@
             {{ tab.name }}
           </li>
           <li
-            class="border-custom-blue4 cursor-pointer border py-2 px-4"
+            class="cursor-pointer border border-custom-blue4 py-2 px-4"
             @click="activePage = 'Floor Plans'"
             :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
@@ -92,7 +92,6 @@ export default {
             "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Three-Bedroom-b-(1).jpg",
             "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Studio-Kitchen.jpg",
             "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Studio.jpg",
-            "/assets/resorts/animal-kingdom/rooms/studio/Animal-Kingdom-Picture-Three-Bedroom-a.jpg",
           ],
           description: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
           amenities: [

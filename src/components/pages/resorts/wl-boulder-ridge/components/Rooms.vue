@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -45,38 +43,18 @@ export default {
       floors: [
         {
           img: "/assets/resorts/boulder-ridge/floor/1.png",
-          name: "Boulder Ridge Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/boulder-ridge/floor/2.png",
-          name: "Boulder Ridge Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Deluxe Studio Villas (Sleeps Five)",
+          size: "Deluxe Studio Villas feature one full bathroom and accommodate up to five Guests, plus one child under age three in a crib, and include a kitchenette, queen-size bed, double-size sleeper sofa, pull-down bunk sized bed, flat-panel TV, DVD player, and private balcony.",
         },
         {
           img: "/assets/resorts/boulder-ridge/floor/3.png",
-          name: "Boulder Ridge Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "One-Bedroom Villa (Sleeps Four Plus)",
+          size: "Features a master suite with a king-size bed and a private bathroom, and a living room with queen-size sleeper sofa. * 5th guest can be accommodated but must provide their own bedding and linens",
         },
         {
-          img: "/assets/resorts/boulder-ridge/floor/4.png",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/boulder-ridge/floor/4.png",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/boulder-ridge/floor/4.png",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/boulder-ridge/floor/4.png",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/boulder-ridge/floor/2.png",
+          name: "Two-Bedroom Villa (Sleeps Eight Plus)",
+          size: "Features a master suite with a king-size bed; a separate bedroom with 2 queen-size beds and private bathroom; and a living room with queen-size sleeper sofa. * 9th guest can be accommodated but must provide own bedding and linens",
         },
       ],
       tabs: [
@@ -147,8 +125,7 @@ export default {
             "/assets/resorts/copper-creek/rooms/bed2/2.jpg",
             "/assets/resorts/copper-creek/rooms/bed2/3.jpg",
           ],
-          description:
-            "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa",
+          description: "1 king-size bed, 1 queen-size beds, 1 queen-size sleeper sofa",
           amenities: [
             "Fully equipped kitchen",
             "Dishwasher",

@@ -5,30 +5,27 @@
         <div class="mx-4">
           <div class="py-5">
             <ResortsSlider :images="images" />
-            <div class="text-center mt-14">
-              <h2
-                class="text-custom-blue4 text-4xl font-semibold uppercase mt-2"
-              >
+            <div class="mt-14 text-center">
+              <h2 class="text-custom-blue4 mt-2 text-4xl font-semibold uppercase">
                 Disney's BoardWalk Villas
               </h2>
             </div>
             <div class="my-3 overflow-auto md:text-2xl">
               <p class="text-custom-blue4 font-medium">
-                Go back to the ragtime era when you stay at the BoardWalk
-                Villas—Disney’s Atlantic City-inspired resort. <br />
-                Just a stone’s throw from Epcot and Disney’s Hollywood Studios,
-                the carnival atmosphere of the Coney Island-style boardwalk will
-                transport you to a time and place worlds away. <br />
-                Enjoy the elegance and charm of the early 1900s while still
-                being conveniently located to a full-entertainment district just
-                outside your room, including restaurants, shops, and
-                recreational venues, plus all the amenities of the nearby Yacht
-                and Beach Clubs.
+                Go back to the ragtime era when you stay at the BoardWalk Villas—Disney’s Atlantic
+                City-inspired resort. <br />
+                Just a stone’s throw from Epcot and Disney’s Hollywood Studios, the carnival
+                atmosphere of the Coney Island-style boardwalk will transport you to a time and
+                place worlds away. <br />
+                Enjoy the elegance and charm of the early 1900s while still being conveniently
+                located to a full-entertainment district just outside your room, including
+                restaurants, shops, and recreational venues, plus all the amenities of the nearby
+                Yacht and Beach Clubs.
               </p>
             </div>
             <div class="mt-7">
               <h2
-                class="text-custom-orange1 font-body text-3xl text-center font-semibold uppercase mt-2 underline"
+                class="text-custom-orange1 font-body mt-2 text-center text-3xl font-semibold uppercase underline"
               >
                 What makes Disney's Boardwalk Villas great!
               </h2>
@@ -75,13 +72,11 @@ export default {
       images: [
         "/assets/resorts/boardwalk-villas/1.png",
         "/assets/resorts/boardwalk-villas/2.png",
-        // "/assets/resorts/boardwalk-villas/3.png",
         "/assets/resorts/boardwalk-villas/4.png",
         "/assets/resorts/boardwalk-villas/5.png",
         "/assets/resorts/boardwalk-villas/6.png",
         "/assets/resorts/boardwalk-villas/7.png",
-        // "/assets/resorts/boardwalk-villas/8.png",
-        "/assets/resorts/boardwalk-villas/9.png",
+        "/assets/resorts/boardwalk-villas/9.jpg",
       ],
     };
   },

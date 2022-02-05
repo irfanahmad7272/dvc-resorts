@@ -1,24 +1,24 @@
 <template>
   <div>
     <Header />
-    <div class="main-page pt-5 pb-12 bg-custom-bg1 text-custom-blue4 text-xl">
+    <div class="main-page bg-custom-bg1 pt-5 pb-12 text-xl text-custom-blue4">
       <!-- page title start-->
       <h1
-        class="my-5 font-normal text-center uppercase text-2xl md:text-pTitle text-custom-primary font-body"
+        class="my-5 text-center font-body text-2xl font-normal uppercase text-custom-primary md:text-pTitle"
       >
         HISTORICAL SALES CHART
       </h1>
       <!-- page title end-->
       <div class="flex justify-center">
-        <div class="left-sidebar-menu w-1/6 hidden lg:block"></div>
+        <div class="left-sidebar-menu hidden w-1/6 lg:block"></div>
         <div class="page-content-body w-11/12 lg:w-4/6">
           <!-- main content start  -->
           <section>
-            <div class="w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-1 mx-auto">
+            <div class="mx-auto grid w-10/12 grid-cols-2 gap-1 sm:grid-cols-4">
               <button
                 v-for="(resort, i) in resorts"
                 :key="i"
-                class="w-full h-9 border border-custom-blue2 hover:bg-custom-lightcream text-custom-blue5 rounded text-xl"
+                class="h-9 w-full rounded border border-custom-blue2 text-xl text-custom-blue5 hover:bg-custom-lightcream"
                 :class="
                   resort === active_resort
                     ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'
@@ -32,25 +32,25 @@
           </section>
           <section>
             <!-- chart start -->
-            <div class="mt-10 w-11/12 mx-auto relative grid grid-cols-12 gap-x-4 md:gap-x-10">
+            <div class="relative mx-auto mt-10 grid w-11/12 grid-cols-12 gap-x-4 md:gap-x-10">
               <div class="col-span-12 sm:col-span-9">
                 <highcharts :options="chartOptions"></highcharts>
                 <div class="flex flex-wrap justify-center">
-                  <span class="inline-block bg-custom-blue4 w-10 h-6 rounded"></span>
+                  <span class="inline-block h-6 w-10 rounded bg-custom-blue4"></span>
                   <span class="px-3">Pending ROFR Decesion</span>
-                  <span class="inline-block bg-red-700 w-10 h-6 rounded"></span>
+                  <span class="inline-block h-6 w-10 rounded bg-red-700"></span>
                   <span class="px-3">Disney Bought</span>
-                  <span class="inline-block bg-green-600 w-10 h-6 rounded"></span>
+                  <span class="inline-block h-6 w-10 rounded bg-green-600"></span>
                   <span class="px-3">30-90 Days</span>
-                  <span class="inline-block bg-green-400 w-10 h-6 rounded"></span>
+                  <span class="inline-block h-6 w-10 rounded bg-green-400"></span>
                   <span class="px-3">91+ Days</span>
                   <div class="ml-6">
                     <i
-                      class="fas fa-caret-left text-5xl -mt-2 cursor-pointer text-custom-blue2 hover:text-custom-blue4"
+                      class="fas fa-caret-left -mt-2 cursor-pointer text-5xl text-custom-blue2 hover:text-custom-blue4"
                     ></i
                     ><span class="relative -top-2 px-2">6 Months</span
                     ><i
-                      class="fas fa-caret-right text-5xl -mt-2 cursor-pointer text-custom-blue2 hover:text-custom-blue4"
+                      class="fas fa-caret-right -mt-2 cursor-pointer text-5xl text-custom-blue2 hover:text-custom-blue4"
                     ></i>
                   </div>
                 </div>
@@ -62,10 +62,10 @@
               </div>
               <div class="col-span-12 sm:col-span-3">
                 <div
-                  class="border border-custom-blue2 w-full text-center md:text-2xl py-2 space-y-3 bg-custom-lightyellow shadow rounded"
+                  class="w-full space-y-3 rounded border border-custom-blue2 bg-custom-lightyellow py-2 text-center shadow md:text-2xl"
                   v-if="chart_table_visible"
                 >
-                  <p class="text-2xl md:text-3xl mb-5">Not Buying</p>
+                  <p class="mb-5 text-2xl md:text-3xl">Not Buying</p>
                   <span>AK474 </span> <span> 110 Point</span>
                   <p>$140 PER POINTS</p>
                   <p>25% Retail Price</p>
@@ -91,7 +91,7 @@
           </section>
           <!-- main content end -->
         </div>
-        <div class="right-sidebar w-1/6 hidden lg:block"></div>
+        <div class="right-sidebar hidden w-1/6 lg:block"></div>
       </div>
     </div>
   </div>
@@ -156,6 +156,10 @@ export default {
           opposite: true,
         },
         plotOptions: {
+          column: {
+            borderWidth: 0,
+            color: "#23527c",
+          },
           bubble: {
             maxSize: "15%",
           },
@@ -172,6 +176,7 @@ export default {
             dataLabels: {
               enabled: true,
               useHTML: true,
+              outside: true,
               padding: 10,
               formatter: function () {
                 return `

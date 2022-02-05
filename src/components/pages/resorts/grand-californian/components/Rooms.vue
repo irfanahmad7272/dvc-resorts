@@ -2,9 +2,9 @@
   <div>
     <div class="mt-10 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
+        <ul class="mx-auto mb-8 bg-custom-lightcream md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="cursor-pointer border border-custom-blue4 py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="cursor-pointer border border-custom-blue4 py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -44,36 +42,29 @@ export default {
       activeFloor: 0,
       floors: [
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan One Bedroom Jambo House.jpg",
-          name: "Grand Californian Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/grand-californian/floors/1.png",
+          name: "Deluxe Studio",
+          size: "1 queen-size bed and 1 queen-size sleeper sofa Sleeps Up to 4",
         },
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          name: "Grand Californian Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/grand-californian/floors/2.png",
+          name: "1-Bedroom Villa",
+          size: "1 king-size bed, 1 queen-size sleeper sofa, 1 single pull-down bed (29 x 67) Sleeps Up to 5",
         },
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          name: "Grand Californian Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/grand-californian/floors/3.png",
+          name: "2-Bedroom Villa",
+          size: "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa, 1 single pull-down bed (29 x 67) Sleeps Up to 9",
         },
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
-          name: "Grand Californian Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/grand-californian/floors/4.png",
+          name: "2-Bedroom Lock-Off Villa",
+          size: "1 king-size bed, 1 queen-size bed, 2 queen-size sleeper sofas, 1 single pull-down bed (29 x 67) Sleeps Up to 9",
         },
         {
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/grand-californian/floors/5.png",
+          name: "3-Bedroom Grand Villa",
+          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa, 1 double-size sleeper sofa Sleeps Up to 12",
         },
       ],
       tabs: [
@@ -188,7 +179,11 @@ export default {
         },
         {
           name: "3-Bedroom Grand Villa",
-          imgs: ["/assets/resorts/grand-californian/rooms/3bed/1.jpg"],
+          imgs: [
+            "/assets/resorts/grand-californian/rooms/3bed/1.webp",
+            "/assets/resorts/grand-californian/rooms/3bed/2.jpg",
+            "/assets/resorts/grand-californian/rooms/3bed/3.jpg",
+          ],
           description:
             "1  king-size bed, 2 queen-size beds, 2 double-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
           amenities: [

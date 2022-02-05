@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -44,24 +42,24 @@ export default {
       activeFloor: 0,
       floors: [
         {
+          img: "/assets/resorts/boardwalk-villas/floor/4.png",
+          name: "Deluxe Studio Villas (Sleeps Five)",
+          size: "Studios feature kitchenette with microwave oven, under-counter refrigerator, wet bar, coffee maker, ceiling fan, TV, hair dryer and high-speed internet access. Private porch or balcony. One queen-size bed, one pull-down bunk size bed and a double-size sleeper sofa. The average studio offers 359 square feet of living space.",
+        },
+        {
           img: "/assets/resorts/boardwalk-villas/floor/1.png",
-          name: "Boardwalk Villas Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "One-Bedroom Villa (Sleeps Four Plus)",
+          size: "Features a fully equipped kitchen, washer/dryer, ceiling fans, TV in each room and VCR in the living room. Master suite features a king-size bed, a whirlpool tub, hair dryer and high-speed internet access. Queen-size sleeper sofa in the living room. Private porch or balcony. – 712 square feet of living space. * Fifth guest can be accommodated, but must provide their own bedding and linens.",
         },
         {
           img: "/assets/resorts/boardwalk-villas/floor/2.png",
-          name: "Boardwalk Villas Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Two-Bedroom Lock-Off Villa (Sleeps Eight)",
+          size: "Features a fully equipped kitchen, washer/dryer, ceiling fans, TV in each room and VCR in the living room. Master suite features a king-size bed, a whirlpool tub, hair dryer and high-speed internet access. Additional bedroom offers private bath with hair dryer, queen-size bed and double-size sleeper sofa. Queen-size sleeper sofa in the living room. Private porch or balcony. – 1,072 square feet of living space.",
         },
         {
           img: "/assets/resorts/boardwalk-villas/floor/3.png",
-          name: "Boardwalk Villas Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/boardwalk-villas/floor/4.png",
-          name: "Boardwalk Villas Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Three-Bedroom Grand Villas (Sleep Twelve)",
+          size: "Features a King-size bed in master bedroom, two queen size beds in two additional bedrooms, Queen-size sleeper sofa in living room, three bathrooms, Whirlpool tub in master bathroom, Flat panel TV and DVD player in living room, Flat panel TV in master bedroom, Fully equipped in-room laundry area with washer and dryer and private balcony.",
         },
       ],
       tabs: [
@@ -169,10 +167,9 @@ export default {
         {
           name: "3-Bedroom Grand Villa",
           imgs: [
-            "/assets/resorts/boardwalk-villas/rooms/2bed/BoardWalk Rooms 2 Bedroom 5.jpg",
-            "/assets/resorts/boardwalk-villas/rooms/2bed/BoardWalk Rooms 2 Bedroom Master 4.jpg",
-            "/assets/resorts/boardwalk-villas/rooms/2bed/BoardWalk Rooms 2 Bedroom Master 5.jpg",
-            // "/assets/resorts/boardwalk-villas/rooms/2bed/BoardWalk Rooms 2 Bedroom Master Second Bedroom 3.jpg",
+            "/assets/resorts/boardwalk-villas/rooms/3bed/1.jpg",
+            "/assets/resorts/boardwalk-villas/rooms/3bed/2.jpg",
+            "/assets/resorts/boardwalk-villas/rooms/3bed/3.jpg",
           ],
           description:
             "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",

@@ -5,35 +5,32 @@
         <div class="mx-4">
           <div class="py-5">
             <ResortsSlider :images="images" />
-            <div class="text-center mt-14">
-              <h2
-                class="text-custom-blue4 text-4xl font-semibold uppercase mt-2"
-              >
+            <div class="mt-14 text-center">
+              <h2 class="mt-2 text-4xl font-semibold uppercase text-custom-blue4">
                 Grand Floridian
               </h2>
             </div>
             <div class="my-3 overflow-auto md:text-2xl">
-              <p class="text-custom-blue4 font-medium">
-                With luxurious accommodations, five-star dining, and plenty of
-                amenities, the Villas at Disney’s Grand Floridian Resort and Spa
-                are the perfect way to enjoy a family vacation fit for royalty.
+              <p class="font-medium text-custom-blue4">
+                With luxurious accommodations, five-star dining, and plenty of amenities, the Villas
+                at Disney’s Grand Floridian Resort and Spa are the perfect way to enjoy a family
+                vacation fit for royalty.
                 <br />
-                Styled with old-world charm and antique finishes, the Grand
-                Floridian reminds guests of the days when the Victorian
-                well-to-do flocked to Florida's sunny beaches to escape chilly
-                winters up north. Everything about your stay is a pleasurable
+                Styled with old-world charm and antique finishes, the Grand Floridian reminds guests
+                of the days when the Victorian well-to-do flocked to Florida's sunny beaches to
+                escape chilly winters up north. Everything about your stay is a pleasurable
                 experience. <br />
-                Enjoy the sounds of a pianist or jazz band upon entering the
-                main lobby, take a ride on the antique glass elevator, or shop
-                'til you drop at designer clothing and accessories stores.
+                Enjoy the sounds of a pianist or jazz band upon entering the main lobby, take a ride
+                on the antique glass elevator, or shop 'til you drop at designer clothing and
+                accessories stores.
                 <br />
-                A white-sand beach and marina provide the perfect place to view
-                nightly fireworks or the Electrical Water Pageant.
+                A white-sand beach and marina provide the perfect place to view nightly fireworks or
+                the Electrical Water Pageant.
               </p>
             </div>
             <div class="mt-7">
               <h2
-                class="text-custom-orange1 font-body text-3xl text-center font-semibold uppercase mt-2 underline"
+                class="mt-2 text-center font-body text-3xl font-semibold uppercase text-custom-orange1 underline"
               >
                 What makes Disney's Grand floridian Resort great!
               </h2>
@@ -60,25 +57,26 @@ export default {
       cards: [
         {
           discription:
-            "Located on the shores of the Seven Seas Lagoon, choose your adventure to get to Magic Kingdom, whether you walk, take a short monorail ride, or board a ferry boat",
-          name: "Walk, boat, or ride to Magic Kingdom",
-          img: "/assets/resorts/animal-kingdom/b1.png",
+            "Renew your mind, body and spirit at this full-service spa, salon and health club",
+          name: "The Grand Floridian Spa",
+          img: "/assets/resorts/grand-floridian/ygt67y3rt761u3423.webp",
         },
         {
           discription:
-            'the essence of classic Victorian styling is in every detail thorughout the resort. Step back in time to the "golden age of travel" and create new memories together. ',
-          name: '"Grand" accommodations',
-          img: "/assets/resorts/animal-kingdom/b4.png",
+            "Behold a royal transformation as children become princesses or knights at our newest location.",
+          name: "Bibbidi Bobbidi Boutique – Disneys Grand Floridian Resort & Spa",
+          img: "/assets/resorts/grand-floridian/wdw-aug2019-bbb-hero-grandflo-16x9.jpg",
         },
         {
           discription:
-            "Relax with a massage or facial, sunbathe at two pools, and shop at a variety of designer stores. ",
-          name: "Pamper yourself",
-          img: "/assets/resorts/animal-kingdom/b5.png",
+            "Stay fit at the Grand Floridian Resort and Spa health club—a high-tech exercise facility featuring state-of-the-art training equipment.",
+          name: "Health Club",
+          img: "/assets/resorts/grand-floridian/disney-s-grand-floridian.jpg",
         },
       ],
       images: [
         "/assets/resorts/grand-floridian/grandfloridian.jpg",
+        "/assets/resorts/grand-floridian/grand-floridian-reopening-3.jpg",
         "/assets/resorts/grand-floridian/GrandFloridianRestaurentVictoria1.webp",
         "/assets/resorts/grand-floridian/grandfloridian3.webp",
         "/assets/resorts/grand-floridian/grandfloridian4.jpg",

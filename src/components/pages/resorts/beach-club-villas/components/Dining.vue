@@ -2,9 +2,9 @@
   <div>
     <div class="mt-12 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="bg-custom-lightcream mx-auto m-20">
+        <ul class="bg-custom-lightcream m-20 mx-auto">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="(tab, index) in tabs"
             @click="activePage = tab.name"
@@ -89,7 +89,9 @@ export default {
         {
           name: "Crew's Cup Lounge",
           imgs: [
-            "/assets/resorts/beach-club-villas/beach-club-villas-resort-restorant-DisneyResortsPrivateDining.webp",
+            "/assets/resorts/beach-club-villas/crew-cup-lounge-002-16x9.webp",
+            "/assets/resorts/beach-club-villas/dining_location_image_818.jpg",
+            "/assets/resorts/beach-club-villas/caprese-sandwich-crews-cup-lounge-yacht-club.jpg",
           ],
           description:
             "Try charcuterie boards, jumbo shrimp cocktail, and roasted prime rib at this nautical outpost, located next to the Yachtsman Steakhouse at Disney's Yacht Club. Sip on bourbon flights, beer, cider, wine, and specialty cocktails before or after your meal.",
@@ -140,6 +142,7 @@ export default {
           name: "Hurricane Hanna's Waterside Bar and Grill",
           imgs: [
             "/assets/resorts/beach-club-villas/beach-club-villas-resort-restorant-HhurricaneHanna.webp",
+            "/assets/resorts/beach-club-villas/hannas-roll-e1535189338156.jpg",
           ],
           description:
             "Located near Stromalong Bay, the Beach Club's pool area, this quick-service stop includes a full bar, cocktails, smoothies, salads, sandwiches, and snacks.",
