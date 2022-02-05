@@ -1,12 +1,12 @@
 <template>
   <div class="sticky top-0 z-50">
-    <div class="z-40 grid w-full grid-cols-12 bg-custom-blue3 px-4 text-white md:px-12">
+    <div class="bg-custom-blue3 z-40 grid w-full grid-cols-12 px-4 text-white md:px-12">
       <div class="col-span-4 my-auto sm:col-span-5">
         <div class="grid grid-cols-12 md:gap-x-4">
           <div class="col-span-12 my-auto lg:col-span-2 2xl:hidden">
             <button
               @click="showMenu = !showMenu"
-              class="my-2 w-24 rounded border border-white bg-transparent py-0.5 hover:bg-custom-blue2 sm:my-auto lg:w-full"
+              class="hover:bg-custom-blue2 my-2 w-24 rounded border border-white bg-transparent py-0.5 sm:my-auto lg:w-full"
             >
               <i v-if="showMenu" class="fas fa-times"></i>
               <span v-else>Menu</span>
@@ -29,7 +29,7 @@
           <li class="inline">
             <a
               href="#"
-              class="rounded-md border border-white bg-custom-green1 p-1.5 text-2xl hover:bg-custom-darkgreen"
+              class="bg-custom-green1 hover:bg-custom-darkgreen rounded-md border border-white p-1.5 text-2xl"
             >
               LOGIN <i class="fas fa-user"></i>
             </a>
@@ -39,20 +39,20 @@
     </div>
     <!-- sidebar start -->
     <div
-      class="header-sidebar absolute z-30 max-h-screen w-56 overflow-y-auto bg-custom-lightcream px-2 pt-3 pb-4 shadow transition-all duration-700 ease-in-out"
+      class="header-sidebar bg-custom-lightcream absolute z-30 max-h-screen w-56 overflow-y-auto px-2 pt-3 pb-10 shadow transition-all duration-700 ease-in-out"
       :class="showMenu ? 'left-0' : '-left-96 2xl:left-0'"
     >
-      <ul class="mb-8 italic text-custom-blue4">
+      <ul class="text-custom-blue4 mb-8 italic">
         <li v-for="(menu, i) in sideMenu" :key="i">
           <p
             v-if="menu.link.length <= 0"
-            class="my-1 px-2 text-2xl font-bold text-custom-orange2 underline"
+            class="text-custom-orange2 my-1 px-2 text-2xl font-bold underline"
           >
             {{ menu.name }}
           </p>
           <router-link
             v-else
-            class="block px-3 py-0.5 text-xl hover:bg-custom-blue3 hover:text-white"
+            class="hover:bg-custom-blue3 block px-3 py-0.5 text-xl hover:text-white"
             :to="menu.link"
             >{{ menu.name }}</router-link
           >

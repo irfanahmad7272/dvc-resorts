@@ -6,12 +6,12 @@
           <div class="py-5">
             <ResortsSlider :images="images" />
             <div class="mt-14 text-center">
-              <h2 class="mt-2 text-4xl font-semibold uppercase text-custom-blue4">
+              <h2 class="text-custom-blue4 mt-2 text-4xl font-semibold uppercase">
                 Grand Floridian
               </h2>
             </div>
             <div class="my-3 overflow-auto md:text-2xl">
-              <p class="font-medium text-custom-blue4">
+              <p class="text-custom-blue4 font-medium">
                 With luxurious accommodations, five-star dining, and plenty of amenities, the Villas
                 at Disney’s Grand Floridian Resort and Spa are the perfect way to enjoy a family
                 vacation fit for royalty.
@@ -30,7 +30,7 @@
             </div>
             <div class="mt-7">
               <h2
-                class="mt-2 text-center font-body text-3xl font-semibold uppercase text-custom-orange1 underline"
+                class="font-body text-custom-orange1 mt-2 text-center text-3xl font-semibold uppercase underline"
               >
                 What makes Disney's Grand floridian Resort great!
               </h2>
@@ -63,7 +63,7 @@ export default {
         },
         {
           discription:
-            "Behold a royal transformation as children become princesses or knights at our newest location.",
+            "Behold a royal transformation as children become elegant princesses and shining knights—right before your eyes!",
           name: "Bibbidi Bobbidi Boutique – Disneys Grand Floridian Resort & Spa",
           img: "/assets/resorts/grand-floridian/wdw-aug2019-bbb-hero-grandflo-16x9.jpg",
         },
