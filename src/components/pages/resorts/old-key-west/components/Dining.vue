@@ -14,7 +14,6 @@
           </li>
         </ul>
       </div>
-
       <DiningTab :tabs="tabs" :activePage="activePage" />
     </div>
   </div>

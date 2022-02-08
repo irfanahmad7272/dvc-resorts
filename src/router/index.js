@@ -21,7 +21,7 @@ import HiltonHead from '../components/pages/resorts/hilton-head/HiltonHead'
 import OldKeyWest from '../components/pages/resorts/old-key-west/OldKeyWest'
 import Polynesian from '../components/pages/resorts/polynesian/Polynesian'
 import SaratogaSprings from '../components/pages/resorts/saratoga-springs/SaratogaSprings'
-import Rivera from '../components/pages/resorts/riveria/Riveria'
+import Riviera from '../components/pages/resorts/riviera/Riviera'
 import VeroBeach from '../components/pages/resorts/vero-beach/VeroBeach'
 import IntervalResorts from '../components/pages/resorts/interval-resorts/IntervalResorts'
 // resorts end
@@ -131,9 +131,9 @@ const routes = [
     component: SaratogaSprings,
   },
   {
-    path: '/rivera',
-    name: 'Rivera',
-    component: Rivera,
+    path: '/riviera',
+    name: 'Riviera',
+    component: Riviera,
   },
   {
     path: '/vero-beach',

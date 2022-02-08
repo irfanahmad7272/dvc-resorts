@@ -66,7 +66,7 @@ export default {
           discription:
             "Choose from over 30 public golf courses in the local area, rent a bike or fishing pole, sing songs by the campfire, or sunbathe at the beach.",
           name: "Recreation abounds",
-          img: "/assets/resorts/hilton-head/3.png",
+          img: "/assets/resorts/hilton-head/3.jpg",
         },
       ],
       images: [

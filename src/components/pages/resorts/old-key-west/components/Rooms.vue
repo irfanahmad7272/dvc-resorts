@@ -139,15 +139,14 @@ export default {
         {
           name: "2-Bedroom Villa",
           imgs: [
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 1.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 2.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 3.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 4.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 5.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 6.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 7.jpg",
-            // "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 8.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 9.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/1.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/2.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/3.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/4.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/5.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/6.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/7.jpg",
+            "/assets/resorts/old-key-west/rooms/2bed/8.jpg",
           ],
           description:
             "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 9",
@@ -180,8 +179,8 @@ export default {
         {
           name: "3-Bedroom Grand Villa",
           imgs: [
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 6.jpg",
-            "/assets/resorts/old-key-west/rooms/studio/Old Key West Rooms Studio 7.jpg",
+            "/assets/resorts/old-key-west/rooms/3bed/1.jpg",
+            "/assets/resorts/old-key-west/rooms/3bed/2.jpg",
           ],
           description:
             "1  king-size bed, 2 queen-size beds, 2 double-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",

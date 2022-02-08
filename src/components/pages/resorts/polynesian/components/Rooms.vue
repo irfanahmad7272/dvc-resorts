@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -46,22 +44,13 @@ export default {
       floors: [
         {
           img: "/assets/resorts/polynesian/floor/1.png",
-          name: "Polynensian Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Deluxe Studio – Standard View",
+          size: "1 queen-size bed, 1 queen-size pull-down bed, 1 single pull-down bed Sleeps Up to 5",
         },
         {
-          img: "/assets/resorts/polynesian/floor/1.png",
-          name: "Polynensian Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          img: "/assets/resorts/polynesian/floor/1.png",
-          name: "Polynensian Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-        {
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/polynesian/floor/2.png",
+          name: "Bungalow",
+          size: "1 king-size bed, 1 queen-size bed, 1 queen-size pull-down bed, 2 single pull-down beds Sleeps Up to 8",
         },
       ],
       tabs: [

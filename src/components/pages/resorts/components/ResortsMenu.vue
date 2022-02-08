@@ -2,13 +2,13 @@
   <div>
     <section class="bg-custom-light2">
       <div class="mx-auto pb-5">
-        <div class="mt-6 w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-1 mx-auto">
+        <div class="mx-auto mt-6 grid w-10/12 grid-cols-2 gap-1 sm:grid-cols-4">
           <router-link :to="resort.url" :key="i" v-for="(resort, i) in resorts">
             <button
-              class="w-full h-9 border border-custom-blue2 text-custom-blue5 rounded text-xl"
+              class="border-custom-blue2 text-custom-blue5 h-9 w-full rounded border text-xl"
               :class="
                 currentUrl == resort.url
-                  ? 'bg-custom-blue2 !text-white hover:bg-custom-blue3'
+                  ? 'bg-custom-blue2 hover:bg-custom-blue3 !text-white'
                   : 'hover:bg-custom-lightcream'
               "
             >
@@ -39,7 +39,7 @@ export default {
         { name: "OLD KEY WEST", url: "/old-key-west" },
         { name: "POLYNESIAN", url: "/polynesian" },
         { name: "SARATOGA SPRINGS", url: "/saratoga-springs" },
-        { name: "RIVERA", url: "/rivera" },
+        { name: "Riviera", url: "/riviera" },
         { name: "VERO BEACH", url: "/vero-beach" },
         { name: "INTERVAL RESORTS", url: "/interval-resorts" },
       ],
