@@ -39,7 +39,7 @@ export default {
         { name: "OLD KEY WEST", url: "/old-key-west" },
         { name: "POLYNESIAN", url: "/polynesian" },
         { name: "SARATOGA SPRINGS", url: "/saratoga-springs" },
-        { name: "Riviera", url: "/riviera" },
+        { name: "RIVIERA", url: "/riviera" },
         { name: "VERO BEACH", url: "/vero-beach" },
         { name: "INTERVAL RESORTS", url: "/interval-resorts" },
       ],

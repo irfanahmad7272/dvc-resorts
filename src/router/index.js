@@ -32,6 +32,7 @@ import HistoricalSalesChart from '../components/pages/historical-sales-chart/His
 import Financing from '../components/pages/available-financing/Financing'
 import Blogs from '../components/pages/blogs/Blogs'
 import BlogDetail from '../components/pages/blogs/BlogDetail'
+import BlogList from '../components/pages/blogs/BlogList'
 Vue.use(VueRouter)
 const routes = [
   {
@@ -185,6 +186,11 @@ const routes = [
     path: '/blog-detail',
     name: 'Blog Detail',
     component: BlogDetail,
+  },
+  {
+    path: '/blog-list',
+    name: 'Blog List',
+    component: BlogList,
   },
 ]
 

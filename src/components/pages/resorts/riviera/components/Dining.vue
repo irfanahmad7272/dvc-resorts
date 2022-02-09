@@ -32,6 +32,7 @@ export default {
           name: "Topolino's Terrace",
           imgs: [
             "/assets/resorts/riviera/topolina.jpg",
+            "/assets/resorts/riviera/01.jpg",
             "/assets/resorts/riviera/topolina2.jpg",
             "/assets/resorts/riviera/topolina3.jpg",
             "/assets/resorts/riviera/topolina4.jpg",
