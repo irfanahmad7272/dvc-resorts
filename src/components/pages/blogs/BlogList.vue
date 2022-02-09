@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="text-custom-blue4 mx-96 mt-5">
+    <section class="text-custom-blue4 mt-5">
       <!-- tabs menu start -->
       <div>
         <p class="text-2xl md:text-3xl 2xl:text-4xl">Blogs List</p>
