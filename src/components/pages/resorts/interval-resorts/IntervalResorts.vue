@@ -29,34 +29,26 @@
                 </li>
               </ul>
             </section>
-            <div v-if="activePage === 'overview'" class="px-16">
-              <p class="text-custom-blue6 py-4">
-                Interval International (II) is one of the largest timeshare exchange companies in
-                the world and is affiliated with many of the best timeshare resorts in the industry.
-                Their network consists of 2,900 resorts across the globe, making an II membership a
-                great option for timeshare owners, who want to save money on their annual vacations
-                through vacation ownership, while also having the flexibility to travel all over the
-                world.
-              </p>
-              <img src="/assets/106777_1642500666.jpg" class="w-full" />
-            </div>
-            <div v-if="activePage === 'Weekly'" class="px-16 pt-6">
-              <img
-                class="h-94 w-full"
-                src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Weekly-Point-Chart.jpg"
-              />
-            </div>
-            <div v-if="activePage === 'Nightly'" class="px-16 pt-6">
-              <img
-                class="h-94 w-full"
-                src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Registry-Point-Chart.jpg"
-              />
-            </div>
-            <div v-if="activePage === 'Registry Collection'" class="px-16 pt-6">
-              <img
-                class="h-94 w-full"
-                src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Nightly-Point-Chart.jpg"
-              />
+            <div v-if="activePage === 'overview'" class="mt-10 px-16">
+              <img src="/assets/resorts/rci/interval.png" class="w-full" />
+              <div class="text-custom-blue6 space-y-4 py-4 text-center text-2xl">
+                <p class="text-3xl">Explore the World with Interval International</p>
+                <p>
+                  As part of the World Collection, Interval International® provides Disney Vacation
+                  Club Members access to thousands of properties featuring a wide range of vacation
+                  accommodations.
+                </p>
+                <p>
+                  A world of destinations awaits—from the magnificent castles of Europe to the palm
+                  tree-lined beaches of Mexico, to the bright lights of exciting Las Vegas.
+                </p>
+                <p>
+                  Members interested in exchanging Disney Vacation Club Points with Interval can
+                  book online or call Member Services to book or to deposit Points for a future
+                  reservation.
+                </p>
+              </div>
+              <Cards :data="cards" />
             </div>
           </div>
           <!-- main content end -->
@@ -69,52 +61,33 @@
 <script>
 import Header from "../../../layout/header/Header.vue";
 import ResortsMenu from "../components/ResortsMenu.vue";
+import Cards from "../components/Cards";
+
 export default {
-  components: { Header, ResortsMenu },
+  components: { Header, ResortsMenu, Cards },
   data() {
     return {
       activePage: "overview",
-      resorts: [
-        { name: "ANIMAL KINGDOM", url: "/animal-kingdom", active: false },
-        { name: " AULANI", url: "/aulani", active: false },
-        { name: "BAY LAKE TOWER", url: "/bay-lake-tower", active: false },
+      pages: [{ component: "overview", name: "overview" }],
+      cards: [
         {
-          name: " BEACH CLUB VILLAS",
-          url: "/beach-club-villas",
-          active: false,
+          discription:
+            "View information about booking to help you secure the reservation you want.",
+          name: "Know Before You Book",
+          img: "/assets/resorts/rci/01.jpg",
         },
-        { name: "BOARDWALK VILLAS", url: "/boardwalk-villas", active: false },
-        { name: "BOULDER RIDGE", url: "/boulder-ridge", active: false },
-        { name: "COPPER CREEK", url: "/copper-creek", active: false },
         {
-          name: "GRAND CALIFORNIAN",
-          url: "/grand-californian",
-          active: false,
+          discription: "See additional details about exchanges with Interval International.",
+          name: "Interval International Exchanges",
+          img: "/assets/resorts/rci/02.jpg",
         },
-        { name: "GRAND FLORIDIAN", url: "/grand-floridian", active: false },
-        { name: "HILTON HEAD", url: "/hilton-head", active: false },
-        { name: "OLD KEY WEST", url: "/old-key-west", active: false },
-        { name: "POLYNESIAN", url: "/polynesian", active: false },
-        { name: "SARATOGA SPRINGS", url: "/saratoga-springs", active: false },
-        { name: " RIVERA", url: "/rivera", active: false },
-        { name: "VERO BEACH", url: "/vero-beach", active: false },
-        { name: "RCI RESORTS", url: "/rci-resorts", active: true },
-      ],
-      pages: [
-        { component: "overview", name: "overview" },
-        { component: "Weekly", name: "Weekly" },
-        { component: "Nightly", name: "Nightly" },
-        { component: "Registry Collection", name: "Registry Collection" },
-        { component: "Resort Directory", name: "Resort Directory" },
+        {
+          discription: "Protect your Disney Vacation Club travels and buy travel insurance today.",
+          name: "Purchase Travel Insurance",
+          img: "/assets/resorts/rci/03.webp",
+        },
       ],
     };
-  },
-  watch: {
-    activePage(newVal) {
-      if (newVal === "Resort Directory") {
-        this.$router.push("https://www.rci.com/dvc/");
-      }
-    },
   },
 };
 </script>
