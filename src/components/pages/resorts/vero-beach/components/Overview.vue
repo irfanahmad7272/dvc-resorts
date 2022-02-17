@@ -53,21 +53,21 @@ export default {
       cards: [
         {
           discription:
-            "Vero Beach is located on beachfront property along Florida's Treasure Coast, where guests can experience a getaway away from other tourist beach destinations.  ",
-          name: "Beachside paradise",
-          img: "/assets/resorts/animal-kingdom/b1.png",
+            "Enjoy a variety of games and nature activities, and a chance to make new friends!",
+          name: "Activity Programs",
+          img: "/assets/resorts/vero-beach/activity-programs-for-kids-teens-00.webp",
         },
         {
           discription:
-            "Miles of natural shoreline, sea turtle nesting grounds, and golf make up just some of the activities that will enhance this Florida beach escape. ",
-          name: "Experience real Florida",
-          img: "/assets/resorts/vero-beach/4.png",
+            "Dive into fun at the Mickey-shaped pool and take a ride on the Pirate's Plunge pool slide.",
+          name: "Pool",
+          img: "/assets/resorts/vero-beach/pool.jpg",
         },
         {
           discription:
-            "kids of all ages will enjoy splashing into the Mickey-shaped pool and adventuring down the Pirates Plunge pool slide. Join the family for a round of mini-golf, or play pick-up basketball or volleyball game.  ",
-          name: "Family-friendly activities",
-          img: "/assets/resorts/vero-beach/5.png",
+            "Challenge your friends and family to a round on our 9-hole miniature-golf course.",
+          name: "Miniature Golf",
+          img: "/assets/resorts/vero-beach/port-holes-miniature-golf-00.webp",
         },
       ],
       images: [

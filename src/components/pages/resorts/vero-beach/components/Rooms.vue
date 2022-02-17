@@ -4,7 +4,7 @@
       <div class="col-span-12 md:col-span-3">
         <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,11 +13,9 @@
             {{ tab.name }}
           </li>
           <li
-            class="py-2 px-4 border border-custom-blue4 cursor-pointer"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
-            :class="[
-              { 'bg-custom-blue4 text-white': activePage == 'Floor Plans' },
-            ]"
+            :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
             Floor Plans
           </li>
@@ -45,50 +43,45 @@ export default {
       floors: [
         {
           img: "/assets/resorts/vero-beach/floor/1.png",
-          name: "Vero beach Floor plan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Deluxe Studio",
+          size: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
         },
         {
           img: "/assets/resorts/vero-beach/floor/2.png",
-          name: "Vero beach Floor plan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Deluxe Inn Room – Standard View",
+          size: "2 queen-size beds Sleeps Up to 4",
         },
         {
           img: "/assets/resorts/vero-beach/floor/3.png",
-          name: "Vero beach Floor plan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "Deluxe Inn Room – Ocean View",
+          size: "2 queen-size beds Sleeps Up to 4",
         },
         {
           img: "/assets/resorts/vero-beach/floor/4.png",
-          name: "Vero beach Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "1-Bedroom Villa",
+          size: "1 king-size bed, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 5",
         },
         {
           img: "/assets/resorts/vero-beach/floor/5.png",
-          name: "Vero beach Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          name: "2-Bedroom Villa",
+          size: "1 king-size bed, 1 queen-size bed, 1 queen-size sleeper sofa, 1 double sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
         {
-          img: "/assets/resorts/vero-beach/floor/5.png",
-          name: "Vero beach Floor plan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/vero-beach/floor/7.png",
+          name: "2-Bedroom Lock-Off Villa",
+          size: "1 king-size bed, 1 queen-size bed, 1 queen-size sleeper sofa, 1 double sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
         {
-          img: "/assets/resorts/vero-beach/floor/5.png",
-
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          img: "/assets/resorts/vero-beach/floor/6.png",
+          name: "3-Bedroom Beach Cottage",
           size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
         },
       ],
       tabs: [
         {
           name: "Deluxe Studio",
-          imgs: [
-            // "/assets/resorts/vero-beach/rooms/studio/1.PNG",
-            "/assets/resorts/vero-beach/rooms/studio/2.jpg",
-          ],
-          description:
-            "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
+          imgs: ["/assets/resorts/vero-beach/rooms/studio/2.jpg"],
+          description: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
           amenities: [
             "Ceiling fan",
             "Paper plates and bowls, & plastic utensils",
@@ -113,7 +106,7 @@ export default {
 
         {
           name: "Deluxe Inn Room",
-          imgs: ["/assets/resorts/vero-beach/rooms/studio/2.jpg"],
+          imgs: ["/assets/resorts/vero-beach/rooms/studio/3.webp"],
           description: "2 queen-size beds Sleeps Up to 4",
           amenities: [
             "Ceiling fan",

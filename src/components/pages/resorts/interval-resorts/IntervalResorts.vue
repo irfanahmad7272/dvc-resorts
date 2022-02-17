@@ -1,21 +1,21 @@
 <template>
   <div>
     <Header />
-    <div class="main-page pb-12 bg-custom-bg1 text-custom-blue4 text-xl">
+    <div class="main-page bg-custom-bg1 text-custom-blue4 pb-12 text-xl">
       <!-- page title -->
 
       <div class="flex justify-center">
-        <div class="left-sidebar-menu w-1/6 hidden lg:block"></div>
+        <div class="left-sidebar-menu hidden w-1/6 lg:block"></div>
         <div class="page-content-body w-11/12 lg:w-4/6">
           <!-- main content start  -->
           <div>
             <ResortsMenu />
             <section class="uppercase">
-              <ul class="w-full text-center space-x-1">
+              <ul class="w-full space-x-1 text-center">
                 <li>
                   <button
                     v-for="(item, index) in pages"
-                    class="bg-custom-lightcream text-custom-blue4 hover:bg-custom-blue3 hover:text-white rounded cursor-pointer w-32 h-10 m-1 uppercase"
+                    class="bg-custom-lightcream text-custom-blue4 hover:bg-custom-blue3 m-1 h-10 w-32 cursor-pointer rounded uppercase hover:text-white"
                     :class="[
                       activePage == item.component
                         ? '!bg-custom-blue4 !text-white'
@@ -30,40 +30,38 @@
               </ul>
             </section>
             <div v-if="activePage === 'overview'" class="px-16">
-              <p class="py-4 text-custom-blue6">
-                RCI, Resort Condominiums International is a timeshare brokerage
-                company. They do not own resorts. They have over 4,000 resorts
-                for their members to exchange their timeshare from one resort to
-                another. There is a $95.00 fee for this service paid to Disney
-                Vacation Club Member Services when you make a reservation.
+              <p class="text-custom-blue6 py-4">
+                Interval International (II) is one of the largest timeshare exchange companies in
+                the world and is affiliated with many of the best timeshare resorts in the industry.
+                Their network consists of 2,900 resorts across the globe, making an II membership a
+                great option for timeshare owners, who want to save money on their annual vacations
+                through vacation ownership, while also having the flexibility to travel all over the
+                world.
               </p>
-              <img
-                src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-map-large.jpg"
-                class="w-full"
-              />
+              <img src="/assets/106777_1642500666.jpg" class="w-full" />
             </div>
             <div v-if="activePage === 'Weekly'" class="px-16 pt-6">
               <img
-                class="w-full h-94"
+                class="h-94 w-full"
                 src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Weekly-Point-Chart.jpg"
               />
             </div>
             <div v-if="activePage === 'Nightly'" class="px-16 pt-6">
               <img
-                class="w-full h-94"
+                class="h-94 w-full"
                 src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Registry-Point-Chart.jpg"
               />
             </div>
             <div v-if="activePage === 'Registry Collection'" class="px-16 pt-6">
               <img
-                class="w-full h-94"
+                class="h-94 w-full"
                 src="https://dvcsales.com/wp-content/themes/dvcsales/images/rci-resorts/RCI-Nightly-Point-Chart.jpg"
               />
             </div>
           </div>
           <!-- main content end -->
         </div>
-        <div class="right-sidebar w-1/6 hidden lg:block"></div>
+        <div class="right-sidebar hidden w-1/6 lg:block"></div>
       </div>
     </div>
   </div>
