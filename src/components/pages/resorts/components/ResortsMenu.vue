@@ -5,11 +5,11 @@
         <div class="mx-auto mt-6 grid w-10/12 grid-cols-2 gap-1 sm:grid-cols-4">
           <router-link :to="resort.url" :key="i" v-for="(resort, i) in resorts">
             <button
-              class="border-custom-blue2 text-custom-blue5 h-9 w-full rounded border text-xl"
+              class="border-custom-blue2 h-9 w-full rounded border text-xl"
               :class="
                 currentUrl == resort.url
-                  ? 'bg-custom-blue2 hover:bg-custom-blue3 !text-white'
-                  : 'hover:bg-custom-lightcream'
+                  ? 'bg-custom-blue2 hover:bg-custom-blue3 text-white'
+                  : 'hover:bg-custom-lightcream text-custom-blue5'
               "
             >
               {{ resort.name }}

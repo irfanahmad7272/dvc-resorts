@@ -3,16 +3,16 @@
     <resorts-layout>
       <div>
         <section class="uppercase">
-          <ul class="w-full text-center space-x-1">
+          <ul class="w-full space-x-1 text-center">
             <li>
               <button
                 v-for="(item, index) in pages"
-                class="bg-custom-lightcream text-custom-blue4 hover:bg-custom-blue3 hover:text-white rounded cursor-pointer min-w-12% px-5 h-10 m-1 uppercase text-lg"
-                :class="[
+                class="min-w-12% m-1 h-10 cursor-pointer rounded px-5 text-lg uppercase"
+                :class="
                   activePage == item.component
-                    ? '!bg-custom-blue4 !text-white'
-                    : 'text-custom-blue4',
-                ]"
+                    ? 'bg-custom-blue4 text-white'
+                    : 'bg-custom-lightcream text-custom-blue4 hover:bg-custom-blue2 hover:text-white'
+                "
                 :key="index"
                 @click="activePage = item.component"
               >

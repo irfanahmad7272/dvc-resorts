@@ -85,7 +85,7 @@ export default {
             "/assets/resorts/grand-floridian/GrandFloridianDeluxeStudio (7).jpg",
           ],
           description:
-            "Sleeps up to 5 Adults Sleeps up to 5 Adults Kitchenette With Small Refrigerator Spacious accommodations include a kitchenette with small fridge and microwave, and porch or balcony",
+            "Sleeps up to 5 Adults Kitchenette With Small Refrigerator Spacious accommodations include a kitchenette with small fridge and microwave, and porch or balcony",
           amenities: [
             "Microwave",
             "Plush Bath Robes",
@@ -113,7 +113,7 @@ export default {
             "/assets/resorts/grand-floridian/GrandFloridianDeluxeStudio (7).jpg",
           ],
           description:
-            "Sleeps up to 5 Adults Sleeps up to 5 Adults Kitchenette With Small Refrigerator Spacious accommodations include a kitchenette with small fridge and microwave, and porch or balcony",
+            "Sleeps up to 5 Adults Kitchenette With Small Refrigerator Spacious accommodations include a kitchenette with small fridge and microwave, and porch or balcony",
           amenities: [
             "Microwave",
             "Plush Bath Robes ",

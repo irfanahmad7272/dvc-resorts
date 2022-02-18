@@ -77,7 +77,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-DeluxeStudioLakeView9.webp",
           ],
           description:
-            "Sleeps up to 4 Adults Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
+            "Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",
@@ -108,7 +108,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-DeluxeStudioLakeView9.webp",
           ],
           description:
-            "Sleeps up to 4 Adults Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
+            "Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",
@@ -142,7 +142,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-DeluxeStudioLakeView4.webp",
           ],
           description:
-            "Sleeps up to 4 Adults Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
+            "Sleeps up to 4 Adults Spacious accommodations include a kitchenette with small fridge and microwave, and balcony",
           amenities: [
             "Toaster",
             "Internet - Free WiFi Service",
@@ -173,7 +173,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-1BedroomVillaStandardView9.webp",
           ],
           description:
-            "Sleeps up to 5 Adults Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
+            "Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",
@@ -210,7 +210,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-1BedroomVillaLakeView8.webp",
           ],
           description:
-            "Sleeps up to 5 Adults Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
+            "Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",
@@ -245,7 +245,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-1BedroomVillaThemeParkView8.webp",
           ],
           description:
-            "Sleeps up to 5 Adults Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
+            "Sleeps up to 5 Adults Great for families, villas include 2 full bathrooms, a full kitchen with an island, private balcony",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",
@@ -282,7 +282,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-2BedroomVillaStandardView9.webp",
           ],
           description:
-            "Sleeps up to 9 Adults Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
+            "Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",
@@ -318,7 +318,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-1BedroomVillaThemeParkView7.webp",
           ],
           description:
-            "Sleeps up to 9 Adults Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
+            "Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",
@@ -356,7 +356,7 @@ export default {
             "/assets/resorts/bay-lake-tower/bay-lake-tower-contemporary-rooms-2BedroomVillaLakeView9.webp",
           ],
           description:
-            "Sleeps up to 9 Adults Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
+            "Sleeps up to 9 Adults Great for large families, villas include 3 full bathrooms and a full kitchen with an island",
           amenities: [
             "Toaster",
             "Fully Equipped Kitchen with Refrigerator",

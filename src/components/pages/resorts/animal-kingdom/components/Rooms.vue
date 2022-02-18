@@ -2,9 +2,9 @@
   <div>
     <div class="mt-10 grid grid-cols-12 md:gap-x-10">
       <div class="col-span-12 md:col-span-3">
-        <ul class="mx-auto mb-8 bg-custom-lightcream md:mt-20">
+        <ul class="bg-custom-lightcream mx-auto mb-8 md:mt-20">
           <li
-            class="cursor-pointer border border-custom-blue4 py-2 px-4"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             :class="[{ 'bg-custom-blue4 text-white': activePage == tab.name }]"
             v-for="tab in tabs"
             @click="activePage = tab.name"
@@ -13,7 +13,7 @@
             {{ tab.name }}
           </li>
           <li
-            class="cursor-pointer border border-custom-blue4 py-2 px-4"
+            class="border-custom-blue4 cursor-pointer border py-2 px-4"
             @click="activePage = 'Floor Plans'"
             :class="[{ 'bg-custom-blue4 text-white': activePage == 'Floor Plans' }]"
           >
@@ -37,50 +37,32 @@ export default {
       activeFloor: 0,
       floors: [
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          name: "Animal Kingdom Floorplan One Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/animal-kingdom/floor/1.png",
+          name: "Deluxe Studio",
+          size: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
         },
 
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Studio Jambo House.9199fb6c.jpg",
-          name: "Animal Kingdom Floorplan Studio Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/animal-kingdom/floor/2.png",
+          name: "1-Bedroom Villa",
+          size: "1 king-size bed, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 5",
         },
 
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Three Bedroom Jambo House.jpg",
-          name: "Animal Kingdom Floorplan Studio Kadani Village",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/animal-kingdom/floor/3.png",
+          name: "2-Bedroom Villa",
+          size: "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
 
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Floorplan Two Bedroom Jambo House.jpg",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
+          img: "/assets/resorts/animal-kingdom/floor/4.png",
+          name: "2-Bedroom Lock-Off Villa",
+          size: "1 king-size bed, 1 queen-size bed and 1 double-size sleeper sofa, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
 
         {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 1 Bedroom.jpg",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-
-        {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom Lock-Off.jpg",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-
-        {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom.jpg",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
-          size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
-        },
-
-        {
-          img: "/assets/resorts/animal-kingdom/floor/Animal Kingdom Kadini Village Floorplan 2 Bedroom.jpg",
-          name: "Animal Kingdom Floorplan Three Bedroom Jambo House",
+          img: "/assets/resorts/animal-kingdom/floor/5.png",
+          name: "3-Bedroom Grand Villa",
           size: "1 king-size bed, 4 queen-size beds, 1 queen-size sleeper sofa Sleeps Up to 12",
         },
       ],
