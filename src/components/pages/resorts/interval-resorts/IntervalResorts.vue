@@ -15,11 +15,11 @@
                 <li>
                   <button
                     v-for="(item, index) in pages"
-                    class="bg-custom-lightcream text-custom-blue4 hover:bg-custom-blue3 m-1 h-10 w-32 cursor-pointer rounded uppercase hover:text-white"
+                    class="m-1 h-10 w-32 cursor-pointer rounded uppercase"
                     :class="[
                       activePage == item.component
-                        ? '!bg-custom-blue4 !text-white'
-                        : 'text-custom-blue4',
+                        ? 'bg-custom-blue4 text-white'
+                        : 'text-custom-blue4 bg-custom-lightcream hover:bg-custom-blue2 hover:text-white',
                     ]"
                     :key="index"
                     @click="activePage = item.component"

@@ -41,25 +41,21 @@ export default {
           name: "Deluxe Studio",
           size: "1 queen-size bed, 1 double-size sleeper sofa Sleeps Up to 4",
         },
-
         {
           img: "/assets/resorts/animal-kingdom/floor/2.png",
           name: "1-Bedroom Villa",
           size: "1 king-size bed, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 5",
         },
-
         {
           img: "/assets/resorts/animal-kingdom/floor/3.png",
           name: "2-Bedroom Villa",
           size: "1 king-size bed, 2 queen-size beds, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
-
         {
           img: "/assets/resorts/animal-kingdom/floor/4.png",
           name: "2-Bedroom Lock-Off Villa",
           size: "1 king-size bed, 1 queen-size bed and 1 double-size sleeper sofa, 1 queen-size sleeper sofa, 1 sleeper chair Sleeps Up to 9",
         },
-
         {
           img: "/assets/resorts/animal-kingdom/floor/5.png",
           name: "3-Bedroom Grand Villa",
@@ -141,14 +137,12 @@ export default {
             "Toaster",
             "Internet - Free WiFi Service",
             "Microwave",
-
             "Portable Crib",
             "Voicemail",
             "Hair Dryer",
             "Iron & Ironing Board",
             "Washer & Dryer",
             "Wireless Internet",
-
             "Coffee Maker",
             "Whirlpool Tub",
             "In-Room Safe",
@@ -165,21 +159,17 @@ export default {
             "Pots and pans",
             "Refrigerator",
             "Stove and oven",
-
             "Fully Equipped Kitchen",
             "Wireless Internet",
             "Microwave",
-
             "Voicemail",
             "Hair Dryer",
             "Iron & Ironing Board",
-
             "Dishes",
             "Glasses",
             "Utensils",
             "Washer & Dryer",
             "Portable Crib",
-
             "Coffee Maker",
             "Whirlpool Tub",
             "In-Room Safe",

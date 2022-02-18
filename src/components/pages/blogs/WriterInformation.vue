@@ -57,13 +57,13 @@
             <tr>
               <td class="px-2">
                 <i
-                  v-if="show_bio"
-                  @click="show_bio = !show_bio"
+                  v-if="writer.active"
+                  @click="writer.active = !writer.active"
                   class="fas fa-minus-circle mr-5 cursor-pointer text-red-400"
                 ></i>
                 <i
                   v-else
-                  @click="show_bio = !show_bio"
+                  @click="writer.active = !writer.active"
                   class="fas fa-plus-circle text-custom-blue2 mr-5 cursor-pointer"
                 ></i>
                 {{ writer.display_order }}
@@ -102,7 +102,7 @@
               <td class="text-center">0/10</td>
               <br />
             </tr>
-            <tr v-if="show_bio">
+            <tr v-if="writer.active === true">
               <td colspan="7">
                 <span class="text-custom-blue3 mr-3 text-2xl font-bold">Bio</span>
                 {{ writer.bio }}
@@ -129,7 +129,6 @@
 export default {
   data() {
     return {
-      show_bio: false,
       writer_info: [
         {
           display_order: 1,
@@ -139,6 +138,7 @@ export default {
           email: "mark@dvcsales.com",
           register_date: "6 January , 2022",
           bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi expedita omnis accusamus nostrum modi, alias repellat architecto autem aspernatur od Lorem",
+          active: false,
         },
         {
           display_order: 2,
@@ -148,6 +148,7 @@ export default {
           email: "mark@dvcsales.com",
           register_date: "6 January , 2022",
           bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi expedita   ",
+          active: false,
         },
         {
           display_order: 3,
@@ -157,6 +158,7 @@ export default {
           email: "mark@dvcsales.com",
           register_date: "6 January , 2022",
           bio: "Lorem omnis accusamus nostrum modi, alias repellat architecto autem aspernatur od Lorem",
+          active: false,
         },
         {
           display_order: 4,
@@ -166,6 +168,7 @@ export default {
           email: "mark@dvcsales.com",
           register_date: "6 January , 2022",
           bio: "em omnis accusamus ",
+          active: false,
         },
         {
           display_order: 5,
@@ -175,6 +178,7 @@ export default {
           email: "mark@dvcsales.com",
           register_date: "6 January , 2022",
           bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi expedita omnis accusamus nostrum modi, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure excepturi expedita omnis accusamus nostrum modi, ",
+          active: false,
         },
       ],
     };
