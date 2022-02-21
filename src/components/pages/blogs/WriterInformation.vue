@@ -104,7 +104,7 @@
             </tr>
             <tr v-if="writer.active === true">
               <td colspan="7">
-                <span class="text-custom-blue3 mr-3 text-2xl font-bold">Bio</span>
+                <span class="text-custom-blue3 mr-3 px-2 text-2xl font-bold">Bio</span>
                 {{ writer.bio }}
               </td>
             </tr>
